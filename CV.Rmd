@@ -26,7 +26,7 @@ Actualmente estudiante de pregrado cursando cuarto año de Sociología. He tenid
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Lienciatura en Sociología", "2017-actual", "Universidad de Chile", "Santiago, Chile",
+  "Licenciatura en Sociología", "2017-actual", "Universidad de Chile", "Santiago, Chile",
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```

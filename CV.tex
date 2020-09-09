@@ -1,0 +1,256 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\colorlet{awesome}{awesome-red}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Martín}{Venegas M.}
+
+\position{Undergraduate Sociology Student - Nudesoc Researcher}
+\address{Facultad de Ciencias Sociales, Universidad de Chile}
+
+\mobile{+569 84791222}
+\email{\href{mailto:martin.venegas@ug.uchile.cl}{\nolinkurl{martin.venegas@ug.uchile.cl}}}
+\github{Martin-Venegas-M}
+\linkedin{martín-venegas-márquez}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+% Templates for detailed entries
+% Arguments: what when with where why
+\usepackage{etoolbox}
+\def\detaileditem#1#2#3#4#5{%
+\cventry{#1}{#3}{#4}{#2}{\ifx#5\empty\else{\begin{cvitems}#5\end{cvitems}}\fi}\ifx#5\empty{\vspace{-4.0mm}}\else\fi}
+\def\detailedsection#1{\begin{cventries}#1\end{cventries}}
+
+% Templates for brief entries
+% Arguments: what when with
+\def\briefitem#1#2#3{\cvhonor{}{#1}{#3}{#2}}
+\def\briefsection#1{\begin{cvhonors}#1\end{cvhonors}}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+%%%% BIBLIOGRAPHY
+% Bibliography formatting
+
+\usepackage[sorting=ynt,citestyle=authoryear,bibstyle=authoryear-comp,defernumbers=true,maxnames=20,giveninits=true, bibencoding=utf8, terseinits=true, uniquename=init,dashed=false,doi=false,isbn=false,natbib=true,backend=biber]{biblatex}
+
+\DeclareFieldFormat{url}{\url{#1}}
+\DeclareFieldFormat[article]{pages}{#1}
+\DeclareFieldFormat[inproceedings]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[incollection]{pages}{\lowercase{pp.}#1}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+\DeclareFieldFormat[article]{title}{\MakeCapital{#1}}
+\DeclareFieldFormat[article]{url}{}
+\DeclareFieldFormat[inproceedings]{title}{#1}
+\DeclareFieldFormat{shorthandwidth}{#1}
+\DeclareFieldFormat{extradate}{}
+
+% No dot before number of articles
+\usepackage{xpatch}
+\xpatchbibmacro{volume+number+eid}{\setunit*{\adddot}}{}{}{}
+
+% Remove In: for an article.
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{%
+  \printtext{\bibstring{in}\intitlepunct}}}
+
+%\makeatletter
+%\DeclareDelimFormat[cbx@textcite]{nameyeardelim}{\addspace}
+%\makeatother
+
+\setlength{\bibitemsep}{1.8pt}
+\setlength{\bibhang}{.9cm}
+%\renewcommand{\bibfont}{\fontsize{12}{14}}
+
+\renewcommand*{\bibitem}{\addtocounter{papers}{1}\item \mbox{}\hskip-0.9cm\hbox to 0.9cm{\hfill\arabic{papers}.~\,}}
+\defbibenvironment{bibliography}
+{\list{}
+  {\setlength{\leftmargin}{\bibhang}%
+   \setlength{\itemsep}{\bibitemsep}%
+   \setlength{\parsep}{\bibparsep}}}
+{\endlist}
+{\bibitem}
+
+\renewcommand{\bibfont}{\normalfont\fontsize{10}{12.4}\selectfont}
+% Counters for keeping track of papers
+\newcounter{papers}
+
+\DeclareSortingTemplate{ty}{
+  \sort{
+    \field{title}
+  }
+  \sort{
+    \field{year}
+  }
+}
+\DeclareBibliographyCategory{bib-E:/Work/CV-Mar/CV.bib-4034852}
+\bibliography{E:/Work/CV-Mar/CV.bib}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {septiembre 2020}
+    {Martín Venegas M.~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{resumen}{%
+\section{Resumen}\label{resumen}}
+
+Actualmente estudiante de pregrado cursando cuarto año de Sociología. He tenido la oportunidad de desarrollar mis habilidades de investigación en el proyecto de Encuesta Zona Cero con NUDESOC, en donde me desempeñé en distintas fases del proceso, tales como: diseñando el cuestionario, coordinando las salidas a terreno, codificando encuestas, procesando y construyendo la base de datos. No obstante, mi tarea principal se centró en el análisis de datos y elaboración del informe de resultados, así como también en ejercer de moderador en el evento de presentación de resultados. También he podido desarrollarme en mi trabajo con Todo Mejora, donde nos encontramos elaborando un diagnostico con metodología mixta para explorar las experiencias del voluntariado, lo que ha implicado diseño de cuestionarios, construcción de bases de datos y planificación de entrevistas y diarios de campo. Por otro lado, he podido desarrollar mis habilidades de comunicación oral y pedagógicas en ayudantías relativas al área cuantitativa y en mi ejercicio como tutor. Mis áreas de interés son: metodologías cuantitativas y estadística, acción colectiva, movimientos sociales y participación política.
+
+\hypertarget{estudios}{%
+\section{Estudios}\label{estudios}}
+
+\detailedsection{\detaileditem{Licenciatura en Sociología}{2017-actual}{Universidad de Chile}{Santiago, Chile}{\empty}}
+
+\hypertarget{experiencia-laboral}{%
+\section{Experiencia laboral}\label{experiencia-laboral}}
+
+\detailedsection{\detaileditem{Co-Investigador Pasante}{2020-actual}{Fundación Todo Mejora}{Santiago, Chile}{\item{Encargado de co-liderar el
+desarrollo de investigación sobre intervención ´Hora Segura´, a partir de metodología cualitativa y/o mixta. Investigadora principal y coordinadora Fernanda Barriga.}}\detaileditem{Investigador}{2019-actual}{Nucleo de Sociología Contingente (NUDESOC)}{Santiago, Chile}{\item{Desarrollo de investigaciones en temáticas contingentes, especialmente acción colectiva, movimientos sociales y política. Presidenta del núcleo Camila Diaz}}\detaileditem{Tutor de Apoyo al Aprendizaje - LEA}{2019-actual}{Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile}{Santiago, Chile}{\item{Acompañamiento y orientación en estrategias de estudio y contenidos de cátedra para estudiantes de Sociología. Encargada del programa Carla Gutierrez}}\detaileditem{Encuestador}{2018}{Semsum Consultoría}{Santiago, Chile}{\item{Aplicación de cuestionario para levantamiento de información respecto a opiniones en torno a Municipalidad de Lampa. Encargado Julián Goren.}}\detaileditem{Transcriptor}{2017}{Conexium Consultoría y Cía. Ltda.}{Santiago, Chile}{\item{Encargado de transcribir entrevistas en profundidad y grupos focales para proyecto de investigación. Encargado de Gestión de Proyectos Luis Silva Gonzalez.}}}
+
+\hypertarget{experiencia-acaduxe9mica}{%
+\section{Experiencia académica}\label{experiencia-acaduxe9mica}}
+
+\detailedsection{\detaileditem{Ayudante de la catedra Estadística Multivariada}{2020}{Facultad de Ciencias Sociales, Universidad de Chile}{Santiago, Chile}{\item{Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a técnicas de análisis multivariado y desarrollo de investigación académica cuantitativa. Profesor responsable Juan Carlos Castillo.}}\detaileditem{Ayudante de la catedra Estrategias de Investigación Cuantitativa}{2019}{Facultad de Ciencias Sociales, Universidad de Chile}{Santiago, Chile}{\item{Apoyo y asesoría a estudiantes de segundo año de la carrera de Sociología respecto a métodología cuantitativa, especialmente en lo referido a construcción de herramientas, levantamiento de datos y analisis de datos.Profesor responsable Juan Carlos Castillo.}}}
+
+\hypertarget{aptitudes}{%
+\section{Aptitudes}\label{aptitudes}}
+
+\begin{itemize}
+\tightlist
+\item
+  Buena organización de tareas y planificación del tiempo.
+\item
+  Desarrolladas habilidades de enseñanza-aprendizaje horizontal y dinámicas.
+\item
+  Desarrolladas habilidades de comunicación oral.
+\item
+  Desarrolladas habilidades de investigación y elaboración de informes.
+\item
+  Desarrolladas habilidades en procesamiento y análisis de bases de datos.
+\item
+  Desarrolladas habilidades en elaboración de instrumentos de levantamiento de datos.
+\item
+  Dominio de software estadístico R/RStudio.
+\item
+  Dominio de lenguaje Markdown y versionamiento Git/Github.
+\item
+  Dominio de gestores bibliográficos Mendeley y Zotero.
+\item
+  Dominio de Word.
+\item
+  Manejo básico de Excel.
+\item
+  Manejo básico de Python.
+\item
+  Manejo básico de Atlas.Ti
+\item
+  Manejo de inglés: lectura y escucha fluida, habla intermedia.
+\item
+  Manejo básico de Portugués
+\end{itemize}
+
+\hypertarget{cursos-afines}{%
+\section{Cursos afines}\label{cursos-afines}}
+
+\detailedsection{\detaileditem{Ciencia Social Abierta: Herramientas para la Reproducibilidad, Colaboración y Comunicación de la Investigación Social}{2020}{Facultad de Ciencias Sociales, Universidad de Chile}{Santiago, Chile}{\empty}\detaileditem{Data Science: R Basics}{2020}{HarvardX}{EdX}{\empty}\detaileditem{Python for Statistical Analysis}{2020}{SuperDataScience Team}{Udemy}{\empty}\detaileditem{Análisis Multinivel}{2019}{Facultad de Ciencias Sociales, Universidad de Chile}{Santiago, Chile}{\empty}\detaileditem{Introducción a la Ciencia de los Datos}{2019}{Facultad de Ciencias Sociales, Universidad de Chile}{Santiago, Chile}{\empty}}
+
+\hypertarget{colaboraciuxf3n-y-autoruxedas}{%
+\section{Colaboración y autorías}\label{colaboraciuxf3n-y-autoruxedas}}
+
+\defbibheading{bib-E:/Work/CV-Mar/CV.bib-4034852}{}
+\addtocategory{bib-E:/Work/CV-Mar/CV.bib-4034852}{nudesocInformeResultadosOficial2020,
+nudesocReporteMetodologicoEncuesta2020,
+roesslerInformeAccesoVivienda2020}
+\newrefcontext[sorting=none]\setcounter{papers}{0}\pagebreak[3]
+\printbibliography[category=bib-E:/Work/CV-Mar/CV.bib-4034852,heading=none]\setcounter{papers}{0}
+
+\nocite{nudesocInformeResultadosOficial2020,
+nudesocReporteMetodologicoEncuesta2020,
+roesslerInformeAccesoVivienda2020}
+
+\hypertarget{experiencias-de-formaciuxf3n-personal}{%
+\section{Experiencias de formación personal}\label{experiencias-de-formaciuxf3n-personal}}
+
+\detailedsection{\detaileditem{Voluntariado regular}{2019-actual}{Santuario Clafira}{Limache, Chile}{\empty}\detaileditem{Centro de Estudiantes de Facultad}{2018}{Facultad de Ciencias Sociales, Universidad de Chile}{Santiago, Chile}{\empty}\detaileditem{Coordinador Núcleo Organizador Escuela Mechona}{2018}{Facultad de Ciencias Sociales, Universidad de Chile}{Santiago, Chile}{\empty}}
+
+\end{document}
