@@ -78,6 +78,7 @@ tribble(
 * Dominio de Word.
 *	Manejo básico de Excel.
 * Manejo básico de Python.
+* Manejo básico de Atlas.Ti
 * Manejo de inglés: lectura y escucha fluida, habla intermedia.
 * Manejo básico de Portugués  
  
