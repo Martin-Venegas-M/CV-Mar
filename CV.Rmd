@@ -18,7 +18,7 @@ library(vitae)
 
 # Resumen
 
-Actualmente estudiante de pregrado cursando cuarto año de Sociología. He tenido la oportunidad de desarrollar mis habilidades de investigación en el proyecto de Encuesta Zona Cero con NUDESOC, en donde me desempeñé en distintas fases del proceso, tales como: diseñando el cuestionario, coordinando las salidas a terreno, codificando encuestas, procesando y construyendo la base de datos. No obstante, mi tarea principal se centró en el análisis de datos y elaboración del informe de resultados, así como también en ejercer de moderador en el evento de presentación de resultados. También he podido desarrollarme en mi trabajo con Todo Mejora, donde nos encontramos elaborando un diagnostico con metodología mixta para explorar las experiencias del voluntariado, lo que ha implicado diseño de cuestionarios, construcción de bases de datos y planificación de entrevistas y diarios de campo. Por otro lado, he podido desarrollar mis habilidades de comunicación oral y pedagógicas en ayudantías relativas al área cuantitativa y en mi ejercicio como tutor. Mis áreas de interés son: metodologías cuantitativas y estadística, acción colectiva, movimientos sociales y participación política.  
+Actualmente estudiante de pregrado cursando cuarto año de Sociología. He tenido la oportunidad de desarrollar mis habilidades de investigación en el proyecto de Encuesta Zona Cero con NUDESOC, en donde me desempeñé en distintas fases del proceso, tales como: diseñando el cuestionario, coordinando las salidas a terreno, codificando encuestas, procesando y construyendo la base de datos. No obstante, mi tarea principal se centró en el análisis de datos y elaboración del informe de resultados, así como también en ejercer de moderador en el evento de presentación de resultados. También he podido desarrollarme en mi trabajo con Todo Mejora, donde nos encontramos elaborando un diagnóstico con metodología mixta para explorar las experiencias del voluntariado, lo que ha implicado diseño de cuestionarios, construcción de bases de datos y planificación de entrevistas y diarios de campo. Por otro lado, he podido desarrollar mis habilidades de comunicación oral y pedagógicas en ayudantías relativas al área cuantitativa y en mi ejercicio como tutor. Mis áreas de interés son: metodologías cuantitativas y estadística, acción colectiva, movimientos sociales y participación política.  
 
 # Estudios
 
@@ -42,7 +42,7 @@ desarrollo de investigación sobre intervención ´Hora Segura´, a partir de me
 
 "Investigador", "2019-actual", "Nucleo de Sociología Contingente (NUDESOC)", "Santiago, Chile", "Desarrollo de investigaciones en temáticas contingentes, especialmente acción colectiva, movimientos sociales y política. Presidenta del núcleo Camila Diaz",
 
-"Tutor de Apoyo al Aprendizaje - LEA", "2019-actual", "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Acompañamiento y orientación en estrategias de estudio y contenidos de cátedra para estudiantes de Sociología. Encargada del programa Carla Gutierrez",
+"Tutor de Apoyo al Aprendizaje - LEA", "2019-actual", "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Acompañamiento y orientación en estrategias de estudio, escritura y lectura académica y contenidos de cátedra para estudiantes de Sociología. Encargada del programa Carla Gutierrez",
 
 "Encuestador", "2018", "Semsum Consultoría", "Santiago, Chile", "Aplicación de cuestionario para levantamiento de información respecto a opiniones en torno a Municipalidad de Lampa. Encargado Julián Goren.",
 
@@ -58,21 +58,21 @@ library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
 
-"Ayudante de la catedra Estadística Multivariada", "2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a técnicas de análisis multivariado y desarrollo de investigación académica cuantitativa. Profesor responsable Juan Carlos Castillo.",
+"Ayudante de la catedra Estadística Multivariada", "Primer Semestre 2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a técnicas de análisis multivariado y desarrollo de investigación académica cuantitativa. Profesor responsable Juan Carlos Castillo.",
 
-"Ayudante de la catedra Estrategias de Investigación Cuantitativa", "2019", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesoría a estudiantes de segundo año de la carrera de Sociología respecto a métodología cuantitativa, especialmente en lo referido a construcción de herramientas, levantamiento de datos y analisis de datos.Profesor responsable Juan Carlos Castillo.",
+"Ayudante de la catedra Estrategias de Investigación Cuantitativa", "Segundo Semestre 2019", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesoría a estudiantes de segundo año de la carrera de Sociología respecto a métodología cuantitativa, especialmente en lo referido a construcción de herramientas, levantamiento de datos y analisis de datos.Profesor responsable Juan Carlos Castillo.",
 ) %>% 
   detailed_entries(Role, Year, Institution, Where, Details)
 ```
 
 # Aptitudes
 *	Buena organización de tareas y planificación del tiempo.
-*	Desarrolladas habilidades de enseñanza-aprendizaje horizontal y dinámicas.
-* Desarrolladas habilidades de comunicación oral.
-*	Desarrolladas habilidades de investigación y elaboración de informes.
-*	Desarrolladas habilidades en procesamiento y análisis de bases de datos.
-*	Desarrolladas habilidades en elaboración de instrumentos de levantamiento de datos.
-*	Dominio de software estadístico R/RStudio.
+*	Habilidades en enseñanza-aprendizaje horizontal y dinámicas.
+* Habilidades en comunicación oral.
+*	Habilidades en investigación y elaboración de informes.
+*	Habilidades en procesamiento y análisis de bases de datos.
+*	Habilidades en elaboración de instrumentos de levantamiento de datos.
+*	Dominio de software estadístico R/RStudio/RCloud.
 * Dominio de lenguaje Markdown y versionamiento Git/Github.
 * Dominio de gestores bibliográficos Mendeley y Zotero.
 * Dominio de Word.
@@ -80,7 +80,7 @@ tribble(
 * Manejo básico de Python.
 * Manejo básico de Atlas.Ti
 * Manejo de inglés: lectura y escucha fluida, habla intermedia.
-* Manejo básico de Portugués  
+* Manejo básico de Portugués.  
  
 # Cursos afines
  

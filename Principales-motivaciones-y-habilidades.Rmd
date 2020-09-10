@@ -1,6 +1,6 @@
 ---
 title: "Principales motivaciones y habilidades"
-author: "Martín Venegas"
+author: "Martín Venegas M."
 date: "9/9/2020"
 output: pdf_document
 ---
