@@ -1,7 +1,7 @@
 ---
 name: Martín
 surname: Venegas M.
-position: "Undergraduate Sociology Student - Nudesoc Researcher"
+position: "Liceanciado en Sociología"
 address: "Facultad de Ciencias Sociales, Universidad de Chile"
 phone: +569 84791222
 email: "martin.venegas@ug.uchile.cl"
@@ -18,7 +18,7 @@ library(vitae)
 
 # Resumen
 
-Actualmente estudiante de pregrado cursando cuarto año de Sociología. He tenido la oportunidad de desarrollar mis habilidades de investigación en el proyecto de Encuesta Zona Cero con NUDESOC, en donde me desempeñé en distintas fases del proceso, tales como: diseñando el cuestionario, coordinando las salidas a terreno, codificando encuestas, procesando y construyendo la base de datos. No obstante, mi tarea principal se centró en el análisis de datos y elaboración del informe de resultados, así como también en ejercer de moderador en el evento de presentación de resultados. También he podido desarrollarme en mi trabajo con Todo Mejora, donde nos encontramos elaborando un diagnóstico con metodología mixta para explorar las experiencias del voluntariado, lo que ha implicado diseño de cuestionarios, construcción de bases de datos y planificación de entrevistas y diarios de campo. Por otro lado, he podido desarrollar mis habilidades de comunicación oral y pedagógicas en ayudantías relativas al área cuantitativa y en mi ejercicio como tutor. Mis áreas de interés son: metodologías cuantitativas y estadística, acción colectiva, movimientos sociales y participación política.  
+Actualmente Licenciado en Sociología y alumno tesista con proyecto titulado _"Justificaciones de violencia y experiencias de injusticia: El caso de Chile post-estallido"_. Aficionado a la estadística, los métodos cuantitativos y la ciencia social abierta. He tenido la oportunidad de aprender sobre estos tópicos a través de distintos cursos, trabajos y formación autodidacta durante mi trayectoria universitaria, permitiendome formar una base sólida en lo que respecta al análisis de datos, uso de software y herramientas para la accesibilidad y reproducibilidad en la investigación. Abierto a toda instancia de aprendizaje que me permita poder contribuir a una investigación social rigurosa y accesible.
 
 # Estudios
 
@@ -26,7 +26,7 @@ Actualmente estudiante de pregrado cursando cuarto año de Sociología. He tenid
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Licenciatura en Sociología", "2017-actual", "Universidad de Chile", "Santiago, Chile",
+  "Licenciatura en Sociología", "2017-2020", "Universidad de Chile", "Santiago, Chile",
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -37,12 +37,13 @@ tribble(
 library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
-  "Co-Investigador Pasante", "2020-actual", "Fundación Todo Mejora", "Santiago, Chile", "Encargado de co-liderar el
-desarrollo de investigación sobre intervención ´Hora Segura´, a partir de metodología cualitativa y/o mixta. Investigadora principal y coordinadora Fernanda Barriga.",
+"Ayudante de investigación", "2020-actual", "Fondecyt Regular 1181239", "Santiago, Chile", "Apoyo técnico en elaboración de artículos: procesamiento y análisis de datos, revisión de literatura y escritura académica. Investigador principal Cristian Cox.",  
+  
+"Pasante de investigación", "2020", "Fundación Todo Mejora", "Santiago, Chile", "Desarrollo y análisis de datos para Informe Bianual Programa Hora Segura 2019-2020 y otras actividades. Coordinadora Fernanda Barriga.",
 
-"Investigador", "2019-actual", "Nucleo de Sociología Contingente (NUDESOC)", "Santiago, Chile", "Desarrollo de investigaciones en temáticas contingentes, especialmente acción colectiva, movimientos sociales y política. Presidenta del núcleo Camila Diaz",
+"Socio-Investigador", "2019-actual", "Nucleo de Sociología Contingente (NUDESOC)", "Santiago, Chile", "Desarrollo de investigaciones en temáticas contingentes, especialmente acción colectiva, movimientos sociales y política. Presidenta del núcleo Camila Diaz.",
 
-"Tutor de Apoyo al Aprendizaje - LEA", "2019-actual", "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Acompañamiento y orientación en estrategias de estudio, escritura y lectura académica y contenidos de cátedra para estudiantes de Sociología. Encargada del programa Carla Gutierrez",
+"Tutor de Apoyo al Aprendizaje - LEA", "2019-actual", "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Acompañamiento y orientación en estrategias de estudio, escritura y lectura académica y contenidos de cátedra para estudiantes de Sociología (focalizado en ciclo básico). Encargada del programa Carla Gutierrez.",
 
 "Encuestador", "2018", "Semsum Consultoría", "Santiago, Chile", "Aplicación de cuestionario para levantamiento de información respecto a opiniones en torno a Municipalidad de Lampa. Encargado Julián Goren.",
 
@@ -57,10 +58,13 @@ desarrollo de investigación sobre intervención ´Hora Segura´, a partir de me
 library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
+"Ayudante de la cátedra Investigación Evaluativa", "Primer Semestre 2021", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de cuarto año de la carrera de Sociología respecto elaboración de diseños de evaluación social. Profesora responsable Andrea Peroni.",  
 
-"Ayudante de la catedra Estadística Multivariada", "Primer Semestre 2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a técnicas de análisis multivariado y desarrollo de investigación académica cuantitativa. Profesor responsable Juan Carlos Castillo.",
+"Ayudante de la cátedra Sociología de las Políticas Públicas", "Segundo Semestre 2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a diseños de intervención social, elaboración de diagnosticos y uso de Marco Lógico. Profesor responsable Fernando Cámpos",  
 
-"Ayudante de la catedra Estrategias de Investigación Cuantitativa", "Segundo Semestre 2019", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesoría a estudiantes de segundo año de la carrera de Sociología respecto a métodología cuantitativa, especialmente en lo referido a construcción de herramientas, levantamiento de datos y analisis de datos.Profesor responsable Juan Carlos Castillo.",
+"Ayudante de la cátedra Estadística Multivariada", "Primer Semestre 2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a técnicas de análisis multivariado y desarrollo de investigación académica cuantitativa. Profesor responsable Juan Carlos Castillo.",
+
+"Ayudante de la cátedra Estrategias de Investigación Cuantitativa", "Segundo Semestre 2019", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesoría a estudiantes de segundo año de la carrera de Sociología respecto a métodología cuantitativa, especialmente en lo referido a construcción de herramientas, levantamiento de datos y analisis de datos.Profesor responsable Juan Carlos Castillo.",
 ) %>% 
   detailed_entries(Role, Year, Institution, Where, Details)
 ```
@@ -112,7 +116,7 @@ bibliography_entries("CV.bib")
 library(tibble)
 tribble(
   ~ Exp, ~ Year, ~ Institution, ~ Where,
-  "Voluntariado regular", "2019-actual", "Santuario Clafira", "Limache, Chile",
+  "Voluntariado regular", "2019-2020", "Santuario Clafira", "Limache, Chile",
   "Centro de Estudiantes de Facultad", "2018", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile",
   "Coordinador Núcleo Organizador Escuela Mechona", "2018", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile"
 ) %>% 
