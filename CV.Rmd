@@ -60,11 +60,11 @@ tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
 "Ayudante de la cátedra Investigación Evaluativa", "Primer Semestre 2021", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de cuarto año de la carrera de Sociología respecto elaboración de diseños de evaluación social. Profesora responsable Andrea Peroni.",  
 
-"Ayudante de la cátedra Sociología de las Políticas Públicas", "Segundo Semestre 2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a diseños de intervención social, elaboración de diagnosticos y uso de Marco Lógico. Profesor responsable Fernando Cámpos",  
+"Ayudante de la cátedra Sociología de las Políticas Públicas", "Segundo Semestre 2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a diseños de intervención social, elaboración de diagnosticos y uso de Marco Lógico. Profesor responsable Fernando Cámpos.",  
 
 "Ayudante de la cátedra Estadística Multivariada", "Primer Semestre 2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a técnicas de análisis multivariado y desarrollo de investigación académica cuantitativa. Profesor responsable Juan Carlos Castillo.",
 
-"Ayudante de la cátedra Estrategias de Investigación Cuantitativa", "Segundo Semestre 2019", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesoría a estudiantes de segundo año de la carrera de Sociología respecto a métodología cuantitativa, especialmente en lo referido a construcción de herramientas, levantamiento de datos y analisis de datos.Profesor responsable Juan Carlos Castillo.",
+"Ayudante de la cátedra Estrategias de Investigación Cuantitativa", "Segundo Semestre 2019", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesoría a estudiantes de segundo año de la carrera de Sociología respecto a métodología cuantitativa, especialmente en lo referido a construcción de herramientas, levantamiento de datos y analisis de datos. Profesor responsable Juan Carlos Castillo.",
 ) %>% 
   detailed_entries(Role, Year, Institution, Where, Details)
 ```

@@ -1,0 +1,24 @@
+---
+author: Martín Venegas Márquez
+return-address: 
+  - Licenciado en Sociología, Universidad de Chile
+  - (+56) 984791222
+  - martin.venegas@ug.uchile.cl
+date: Lunes 24 de Mayo, 2021
+subject: Postulación a pasantía de investigación en Laboratorio de Ciencia Social Abierta
+opening: Estimadas Valentina Andrade y Natalia Riquelme,
+closing: Se despide afectuosamente,
+signature: Martín Venegas Márquez
+
+output: komaletter::komaletter
+---
+
+Junto con saludarlas, me dirijo a ustedes con la finalidad de presentarles las principales motivaciones que me llevan a postular al rol de pasante de investigación en el Laboratorio de Ciencia Social Abierta (LISA).
+
+La primera motivación -y quizás la más profunda- se relaciona a las concepciones que tengo del quehacer científico. Durante mi crianza siempre se me transmitió la importancia del conocimiento científico y el impacto que este puede tener. Esto se transformó en una de mis motivaciones para estudiar ciencias sociales, teniendo en mente el poder contribuir a la generación de este conocimiento en un área que me gustaba y que se me daba bien, sin embargo, no era tan fácil como pensaba. Durante mi trayectoria universitaria y especialmente en el proceso de tesis me he dado cuenta de todas las barreras que emergen: desde poca accesibilidad, hasta información insuficiente para el uso de datos o la reproducción y replicación de artículos. Una de las preguntas que siempre me ha asaltado mientras leo es ¿cómo puedo confiar en estas interpretaciones si no tengo acceso directo a los datos para poder revisarlos? Si bien existen elementos que buscan otorgar la rigurosidad científica necesaria (p.ej revisión por pares), creo que mientras este tipo de preguntas sigan emergiendo significa aun queda mucho por cambiar en la ciencia. Es por esto que considero que LISA es un gran paso hacia esos cambios necesarios y poder participar en él sería muy significativo para mí.
+
+Mis otras dos motivaciones son más simples, pero no por eso menos importantes. Por un lado, disfruto las actividades que tengan que ver con  el manejo de datos, uso de software y toda tarea relacionada. Siempre he pensado que el disfrutar lo que uno hace lleva a ser más comprometido y dedicado en su ejecución, dando por resultado buenos productos. A raíz de este gusto por la temática es que he podido ir formando una base solida de competencias que pueden ser de utilidad para el proyecto, desde conocimientos técnicos como el uso de Github, hasta la proactividad y la paciencia que se necesita para resolver un error que nos arroja el software. Por otro lado, si bien creo tener las competencias requeridas, uno nunca termina de aprender, y es aquí donde radica mi tercera motivación: aprender. Considero que el estar abierto al aprendizaje es sustancial para la formación profesional y personal, especialmente cuando se trata de áreas en las que uno busca crecer y desempeñarse a futuro. De esta manera, creo que mi participación en LISA no solo sería una instancia laboral, sino también un rico espacio formativo.
+
+En suma, sería un gusto para mí el poder aportar mi grano de arena en la apertura de la ciencia, mientras disfruto y aprendo durante el proceso.
+
+Sin más que agregar, quedo atento a cualquier noticia y/o instancia que sea necesaria para continuar el proceso de postulación,
