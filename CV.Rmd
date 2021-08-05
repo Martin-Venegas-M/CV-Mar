@@ -18,7 +18,7 @@ library(vitae)
 
 # Resumen
 
-Actualmente Licenciado en Sociología y alumno tesista con proyecto titulado _"Justificaciones de violencia y experiencias de injusticia: El caso de Chile post-estallido"_. Aficionado a la estadística, los métodos cuantitativos y la ciencia social abierta. He tenido la oportunidad de aprender sobre estos tópicos a través de distintos cursos, trabajos y formación autodidacta durante mi trayectoria universitaria, permitiendome formar una base sólida en lo que respecta al análisis de datos, uso de software y herramientas para la accesibilidad y reproducibilidad en la investigación. Abierto a toda instancia de aprendizaje que me permita poder contribuir a una investigación social rigurosa y accesible.
+  Actualmente Licenciado en Sociología y alumno tesista con proyecto titulado [_"¿Quién justifica qué? El papel del sentido de (in)justicia en las justificaciones de violencia en contexto de protesta"_](https://martin-venegas-m.github.io/tesis/). Aficionado a la estadística, los métodos cuantitativos y la ciencia social abierta. He tenido la oportunidad de aprender sobre estos tópicos a través de distintos cursos, trabajos y formación autodidacta durante mi trayectoria universitaria, permitiendome formar una base sólida en lo que respecta al análisis de datos, uso de software y herramientas para la accesibilidad y reproducibilidad en la investigación. Abierto a toda instancia de aprendizaje que me permita poder contribuir a una investigación social rigurosa y accesible.
 
 # Estudios
 
@@ -37,13 +37,16 @@ tribble(
 library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
+  
+"Pasante de investigación", "2021-actual", "Laboratorio de Ciencia Social Abierta (LISA) - Centro de Estudios de Conflicto y Cohesión Social (COES)", "Santiago, Chile", "Apoyo en sistematización de información y escritura para documento de trabajo sobre transparencia y reproducibilidad en las ciencias sociales. Investigador principal Juan Carlos Castillo.",  
+  
 "Ayudante de investigación", "2020-actual", "Fondecyt Regular 1181239", "Santiago, Chile", "Apoyo técnico en elaboración de artículos: procesamiento y análisis de datos, revisión de literatura y escritura académica. Investigador principal Cristian Cox.",  
   
 "Pasante de investigación", "2020", "Fundación Todo Mejora", "Santiago, Chile", "Desarrollo y análisis de datos para Informe Bianual Programa Hora Segura 2019-2020 y otras actividades. Coordinadora Fernanda Barriga.",
 
 "Socio-Investigador", "2019-actual", "Nucleo de Sociología Contingente (NUDESOC)", "Santiago, Chile", "Desarrollo de investigaciones en temáticas contingentes, especialmente acción colectiva, movimientos sociales y política. Presidenta del núcleo Camila Diaz.",
 
-"Tutor de Apoyo al Aprendizaje - LEA", "2019-actual", "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Acompañamiento y orientación en estrategias de estudio, escritura y lectura académica y contenidos de cátedra para estudiantes de Sociología (focalizado en ciclo básico). Encargada del programa Carla Gutierrez.",
+"Tutor de Apoyo al Aprendizaje - LEA", "2019-2021", "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Acompañamiento y orientación en estrategias de estudio, escritura y lectura académica y contenidos de cátedra para estudiantes de Sociología (focalizado en ciclo básico). Encargada del programa Carla Gutierrez.",
 
 "Encuestador", "2018", "Semsum Consultoría", "Santiago, Chile", "Aplicación de cuestionario para levantamiento de información respecto a opiniones en torno a Municipalidad de Lampa. Encargado Julián Goren.",
 
@@ -76,6 +79,8 @@ tribble(
 *	Habilidades en investigación y elaboración de informes.
 *	Habilidades en procesamiento y análisis de bases de datos.
 *	Habilidades en elaboración de instrumentos de levantamiento de datos.
+
+# Conocimientos técnicos
 *	Dominio de software estadístico R/RStudio/RCloud.
 * Dominio de lenguaje Markdown y versionamiento Git/Github.
 * Dominio de gestores bibliográficos Mendeley y Zotero.
@@ -92,6 +97,8 @@ tribble(
 library(tibble)
 tribble(
   ~ Curso, ~ Year, ~ Institution, ~ Where,
+  "Ciencias Sociales Computacionales: Análisis de Redes Sociales y Procesamiento de Lenguaje Natural", "2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile",
+  
   "Ciencia Social Abierta: Herramientas para la Reproducibilidad, Colaboración y Comunicación de la Investigación Social", "2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", 
   
   "Data Science: R Basics", "2020", "HarvardX", "EdX",
