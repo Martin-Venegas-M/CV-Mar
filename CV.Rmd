@@ -38,7 +38,9 @@ library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
   
-"Asitente de investigación", "2021", "Centro de Estudios de Conflicto y Cohesión Social", "Santiago, Chile", "Asistencia de investigación para investigador post-doctoral Phd. Juan Diego García Castro. Principales actividades: revisión de literatura, manejo de bases de datos y escritura de artículos científicos." ,
+"Practicante", "2022-actual", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Apoyo en análisis cuantitativo y cualitativo del levantamiento de datos de la versión piloto de la Encuesta de Microemprendimiento VII (EME)",
+  
+"Asitente de investigación", "2021-actual", "Centro de Estudios de Conflicto y Cohesión Social", "Santiago, Chile", "Asistencia de investigación para investigador post-doctoral Phd. Juan Diego García Castro. Principales actividades: revisión de literatura, manejo de bases de datos y escritura de artículos científicos." ,
   
 "Pasante de investigación", "2021", "Laboratorio de Ciencia Social Abierta (LISA) - Centro de Estudios de Conflicto y Cohesión Social (COES)", "Santiago, Chile", "Apoyo en sistematización de información y escritura para documento de trabajo sobre transparencia y reproducibilidad en las ciencias sociales. Investigador principal Phd. Juan Carlos Castillo.",  
   

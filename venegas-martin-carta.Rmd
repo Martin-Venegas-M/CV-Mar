@@ -1,0 +1,33 @@
+---
+author: Martín Venegas Márquez
+return-address: 
+  - Limache 127
+  - Ñuñoa, Chile
+  - (+56) 984791222
+  - martin.venegas@ug.uchile.cl
+address:
+  - Sebastián Palacios
+  - Morandé 801
+  - Santiago, Chile
+
+date: Viernes 7 de enero del 2022  
+subject: Postulación a Práctica Encuesta Microemprendimiento (EME) - Instituto Nacional de Estadísticas (INE)
+opening: Estimado Sebastián,
+closing: Mis más sinceros saludos,
+signature: Martín Venegas Márquez
+
+output: komaletter::komaletter
+---
+
+Mi nombre es Martín Venegas Márquez y soy Licenciado en Sociología de la Universidad de Chile. Escribo esta carta con la finalidad de presentar
+mi interés respecto a la posición de Practicante en la Encuesta de Microemprendimiento (EME) y las razones de porqué considero poder desempeñarme de manera óptima en las tareas requeridas para el cargo.
+
+En primer lugar, considero que esta experiencia de práctica se ajusta a mi trayectoria académica y laboral, así como también a mis motivaciones y proyecciones laborales futuras. Me considero un aficionado a los métodos cuantitativos y la estadística, lo cual se ha materializado en la participación en ayudantías, asistencias de investigación y formación autodidacta relacionados al área. Estas experiencias me han permitido formar un perfil que me gustaría profundizar y especializar. Mi objetivo es avanzar hacia un futuro laboral en donde pueda usar las herramientas de la estadística con datos sociales para generar un impacto positivo en la sociedad, ya sea desde el ámbito profesional o el ámbito académico. En línea con estos objetivos, creo que una práctica profesional en el Instituto Nacional de Estadísticas y, específicamente en una iniciativa de tanto valor como la Encuesta de Microemprendimiento, es el punto de partida para contribuir a ese futuro.
+
+En segundo lugar, considero tener tanto las habilidades técnicas necesarias para el cargo, como también las formas de trabajo idóneas para afrontar los desafíos que implica una experiencia como esta. Por un lado, manejo distintas técnicas estadísticas, software de computación y conocimientos de metodología e investigación que podrían ser útiles en el desarrollo de las actividades requeridas. Además cuento con experiencias laborales y académicas que respaldan la aplicación de estos conocimientos. Por otro lado, estas experiencias me han demostrado que un trabajo profesional está cargado de desafíos, por lo que ser proactivo, metódico y cooperativo en la resolución de estos son características esenciales. Considero estas características como pilares de mi forma de trabajar, además de tener la disposición para transformar estos desafíos en oportunidades de aprendizaje.
+
+En síntesis, considero que esta experiencia de práctica no solo sería un rico espacio formativo, sino también una gran oportunidad para contribuir desde ya a utilizar las herramientas de la estadística para el bien público. También creo contar con las habilidades y la perspectiva necesaria para ser un miembro proactivo del equipo de trabajo.
+
+Agradezco su tiempo y disposición. Siéntase con total libertad de contactarme en caso de ser necesario.
+
+
