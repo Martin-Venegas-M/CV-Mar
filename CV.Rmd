@@ -65,6 +65,8 @@ tribble(
 library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
+"Ayudante de la cátedra Diseño de Técnicas Cuantitativas", "Primer Semestre 2022", "Facultad de Ciencias Sociales, Universidad Diego Portales", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer y cuarto año de la carrera de Sociología respecto a diseños cuantitativos de investigación social, incluyendo diseño de herramientas, levantamiento de datos y redacción de informes. Profesora responsable Phd. Macarena Orchard",  
+  
 "Ayudante de la cátedra Investigación Evaluativa", "Primer Semestre 2021", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de cuarto año de la carrera de Sociología respecto elaboración de diseños de evaluación social. Profesora responsable Phd. Andrea Peroni.",  
 
 "Ayudante de la cátedra Sociología de las Políticas Públicas", "Segundo Semestre 2020", "Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Apoyo y asesorías a estudiantes de tercer año de la carrera de Sociología respecto a diseños de intervención social, elaboración de diagnosticos y uso de Marco Lógico. Profesor responsable Phd. Fernando Cámpos.",  
