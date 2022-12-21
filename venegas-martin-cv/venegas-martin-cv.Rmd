@@ -26,6 +26,9 @@ Sociólogo aficionado a la estadística, los métodos cuantitativos y la ciencia
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
+  
+  "Sociólogo", "2017-2022", "Universidad de Chile", "Santiago, Chile",
+  
   "Licenciatura en Sociología", "2017-2020", "Universidad de Chile", "Santiago, Chile",
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
