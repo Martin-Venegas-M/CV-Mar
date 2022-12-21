@@ -1,7 +1,7 @@
 ---
 name: Martín
 surname: Venegas M.
-position: "Liceanciado en Sociología"
+position: "Sociólogo"
 address: "Facultad de Ciencias Sociales, Universidad de Chile"
 phone: +569 84791222
 email: "martin.venegas@ug.uchile.cl"
@@ -18,7 +18,7 @@ library(vitae)
 
 # Resumen
 
-  Actualmente Licenciado en Sociología y estudiante tesista con proyecto titulado [_"¿Quién justifica qué? El rol del sentido de (in)justicia en las justificaciones de violencia en contexto de protesta"_](https://thesis-justification-of-violence.github.io/thesis-report/). Aficionado a la estadística, los métodos cuantitativos y la ciencia social abierta. He tenido la oportunidad de aprender sobre estos tópicos a través de distintos cursos, trabajos y formación autodidacta durante mi trayectoria universitaria, permitiendome formar una base sólida en lo que respecta al análisis de datos, uso de software y herramientas para la accesibilidad y reproducibilidad en la investigación. Abierto a toda instancia de aprendizaje que me permita poder generar un impacto positivo en la sociedad y en las personas.
+Sociólogo aficionado a la estadística, los métodos cuantitativos y la ciencia social abierta. He tenido la oportunidad de aprender sobre estos tópicos a través de distintos cursos, trabajos y formación autodidacta durante mi trayectoria universitaria y laboral, permitiéndome formar una base sólida en lo que respecta al análisis de datos, uso de software y herramientas para la accesibilidad y reproducibilidad en la investigación. Abierto a toda instancia de aprendizaje que me permita poder generar un impacto positivo en la sociedad y en las personas.
 
 # Estudios
 
@@ -38,11 +38,11 @@ library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
   
-"Análista Socioeconómico", "2022-actual", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Apoyo técnico en la Encuesta de Microemprendimiento (EME) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador del Técnico del proyecto Mg. Sebastián Palacios.",  
+"Analista Socioeconómico", "2022-actual", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Diseño de instrumentos, procesamiento y análisis de datos para la VII Encuesta de Microemprendimiento (EME) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador Técnico del proyecto Mg. Sebastián Palacios.",  
   
-"Practicante", "2022", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Apoyo en análisis cuantitativo y cualitativo del levantamiento de datos de la versión piloto de la Encuesta de Microemprendimiento VII (EME)",
+"Practicante", "2022", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Apoyo en levantamiento y análisis de datos al Equipo Técnico de la Encuesta de Microemprendimiento (EME) en la piloto de su VII versión. Coordinador Técnico del proyecto Mg. Sebastián Palacios.",
   
-"Asitente de investigación", "2021-actual", "Centro de Estudios de Conflicto y Cohesión Social", "Santiago, Chile", "Asistencia de investigación para investigador post-doctoral Phd. Juan Diego García Castro. Principales actividades: revisión de literatura, manejo de bases de datos y escritura de artículos científicos." ,
+"Asitente de investigación", "2021-2022", "Centro de Estudios de Conflicto y Cohesión Social", "Santiago, Chile", "Asistencia de investigación para investigador post-doctoral Phd. Juan Diego García Castro. Principales actividades: revisión de literatura, manejo de bases de datos y escritura de artículos científicos." ,
   
 "Pasante de investigación", "2021", "Laboratorio de Ciencia Social Abierta (LISA) - Centro de Estudios de Conflicto y Cohesión Social (COES)", "Santiago, Chile", "Apoyo en sistematización de información y escritura para documento de trabajo sobre transparencia y reproducibilidad en las ciencias sociales. Investigador principal Phd. Juan Carlos Castillo.",  
   
