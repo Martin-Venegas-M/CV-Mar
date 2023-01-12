@@ -41,7 +41,9 @@ library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
   
-"Analista Socioeconómico", "2022-actual", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Diseño de instrumentos, procesamiento y análisis de datos para la VII Encuesta de Microemprendimiento (EME) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador Técnico del proyecto Mg. Sebastián Palacios.",  
+"Analista Socioeconómico", "2023-presente", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Construcción de instrumentos, planificación del trabajo de campo y diseño del procesamiento de datos para la II Encuesta Nacional Sobre Uso del Tiempo (ENUT) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador Técnico del proyecto Mg. Agustín Arce.", 
+  
+"Analista Socioeconómico", "2022", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Diseño de instrumentos, procesamiento y análisis de datos para la VII Encuesta de Microemprendimiento (EME) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador Técnico del proyecto Mg. Sebastián Palacios.",  
   
 "Practicante", "2022", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Apoyo en levantamiento y análisis de datos al Equipo Técnico de la Encuesta de Microemprendimiento (EME) en la piloto de su VII versión. Coordinador Técnico del proyecto Mg. Sebastián Palacios.",
   
@@ -96,6 +98,7 @@ tribble(
 * Dominio de lenguaje Markdown y versionamiento Git/Github.
 * Dominio de gestores bibliográficos Mendeley y Zotero.
 * Dominio de Word.
+* Manejo básico de Survey Solutions.
 *	Manejo básico de Excel.
 * Manejo básico de Python.
 * Manejo básico de Atlas.Ti
