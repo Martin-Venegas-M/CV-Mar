@@ -94,12 +94,11 @@ tribble(
 *	Habilidades en elaboración de instrumentos de levantamiento de datos.
 
 # Conocimientos técnicos
-*	Dominio de software estadístico R/RStudio/RCloud.
-* Dominio de lenguaje Markdown y versionamiento Git/Github.
-* Dominio de gestores bibliográficos Mendeley y Zotero.
-* Dominio de Word.
+*	Manejo avanzado de software estadístico R/RStudio/RCloud.
+* Manejo avanzado de lenguaje Markdown y versionamiento Git/Github/Gitlab.
+* Manejo avanzado de gestores bibliográficos Mendeley y Zotero.
+* Manejo intermedio de Microsoft Office
 * Manejo básico de Survey Solutions.
-*	Manejo básico de Excel.
 * Manejo básico de Python.
 * Manejo básico de Atlas.Ti
 * Manejo de inglés: lectura y escucha fluida, habla intermedia.
