@@ -1,0 +1,158 @@
+---
+name: Martín
+surname: Venegas M.
+date: "`r format(Sys.time(), '%B, %Y')`"
+position: "Sociólogo"
+address: "Facultad de Ciencias Sociales, Universidad de Chile"
+email: "martin.venegas@ug.uchile.cl"
+github: Martin-Venegas-M
+linkedin: "martin-venegas-marquez"
+headcolor: "414141"
+output: 
+  vitae::awesomecv:
+    keep_tex: true
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Resumen
+
+\begin{cvparagraph}
+Sociólogo con foco en estadística aplicada, diseño de encuestas, procesamiento y análisis de datos. A lo largo de mi trayectoria universitaria, laboral y de formación autodidacta, he desarrollado competencias en el uso de R, Quarto, Git y métodos cuantitativos robustos para abordar problemas complejos. Me interesa especialmente el uso de datos para comprender y transformar realidades sociales, con un fuerte compromiso con la accesibilidad del conocimiento y la investigación reproducible. Busco participar en proyectos que combinen rigurosidad técnica con impacto social positivo.
+\end{cvparagraph}
+
+# Estudios
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  
+  "Diplomado en Estadística, mención Métodos Estadísticos", "2023-2024", "Pontificia Universidad Católica de Chile", "Santiago, Chile",
+  
+  "Sociólogo. Segundo lugar en posición de egreso.", "2017-2022", "Universidad de Chile", "Santiago, Chile",
+  
+  "Licenciatura en Sociología", "2017-2020", "Universidad de Chile", "Santiago, Chile"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Experiencia laboral
+
+## Profesional
+
+```{r}
+library(tibble)
+tribble(
+  ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
+  
+"Analista Socioeconómico", "2023-presente", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Construcción de instrumentos, diseño y ejecución del procesamiento de datos para la II Encuesta Nacional Sobre Uso del Tiempo (ENUT) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador Técnico del proyecto Mg. Agustín Arce.", 
+  
+"Analista Socioeconómico", "2022", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Diseño de instrumentos, procesamiento y análisis de datos para la VII Encuesta de Microemprendimiento (EME) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador Técnico del proyecto Mg. Sebastián Palacios.",  
+  
+"Practicante", "2022", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Apoyo en levantamiento y análisis de datos al Equipo Técnico de la Encuesta de Microemprendimiento (EME) en la piloto de su VII versión. Coordinador Técnico del proyecto Mg. Sebastián Palacios."
+) %>% 
+  detailed_entries(Role, Year, Institution, Where, Details)
+```
+
+## Académica
+
+```{r}
+library(tibble)
+tribble(
+  ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
+  
+"Asitente de investigación", "2021-2022", "Centro de Estudios de Conflicto y Cohesión Social (COES)", "Santiago, Chile", "Asistencia de investigación para investigador post-doctoral Phd. Juan Diego García Castro. Principales actividades: revisión de literatura, manejo de bases de datos y escritura de artículos científicos." ,
+  
+"Pasante de investigación", "2021", "Laboratorio de Ciencia Social Abierta (LISA) - Centro de Estudios de Conflicto y Cohesión Social (COES)", "Santiago, Chile", "Apoyo en sistematización de información y escritura para documento de trabajo sobre transparencia y reproducibilidad en las ciencias sociales. Investigador principal Phd. Juan Carlos Castillo.",  
+  
+"Ayudante de investigación", "2020-2022", "Fondecyt Regular 1181239", "Santiago, Chile", "Apoyo técnico en elaboración de artículos: procesamiento y análisis de datos, revisión de literatura y escritura académica. Investigador principal Phd. Cristian Cox.",  
+  
+"Pasante de investigación", "2020", "Fundación Todo Mejora", "Santiago, Chile", "Desarrollo y análisis de datos para Informe Bianual Programa Hora Segura 2019-2020 y otras actividades. Coordinadora Fernanda Barriga.",
+
+"Socio-Investigador", "2019-2020", "Nucleo de Sociología Contingente (NUDESOC)", "Santiago, Chile", "Desarrollo de investigaciones en temáticas contingentes, especialmente acción colectiva, movimientos sociales y política. Presidenta del núcleo Camila Diaz."
+) %>% 
+  detailed_entries(Role, Year, Institution, Where, Details)
+```
+
+# Experiencia docente
+
+```{r}
+library(tibble)
+tribble(
+  ~ Role,
+  ~ Year,
+  ~ Institution,
+  ~ Where,
+  ~ Details,
+  
+  "Ayudante de Cátedra -  Seminario Metodológico Disciplinario: Metodologías Cuantitativas - Doctorado en Psicología",
+  "Otoño 2025",
+  "Facultad de Psicología, Universidad Diego Portales",
+  "Santiago, Chile",
+  "Tutoría en programación en R para análisis cuantitativo aplicado.",
+  
+  "Docente de Apoyo - Estadística Correlacional - Pregrado Sociología",
+  "Segundo semestre 2024",
+  "Facultad de Ciencias Sociales, Universidad de Chile",
+  "Santiago, Chile",
+  "Desarrollo de clases prácticas sobre pruebas de hipótesis, coeficientes de correlación, entre otros; uso de R en análisis bivariado.",
+  
+  "Ayudante de Cátedra - Técnicas Estadísticas Avanzadas - Magister en Métodos para la Investigación Social",
+  "2023-2024",
+  "Facultad de Ciencias Sociales, Universidad Diego Portales",
+  "Santiago, Chile",
+  "Apoyo en clases y asesorías en modelos de ecuaciones estructurales (uso de R y lavaan)",
+  
+  "Ayudante de Cátedra - Diseño de Técnicas Cuantitativas - Pregrado Sociología",
+  "Segundo semestre 2022",
+  "Facultad de Ciencias Sociales, Universidad Diego Portales",
+  "Santiago, Chile",
+  "Apoyo en formulación de instrumentos, diseño de encuestas y análisis de datos con R",
+  
+  "Ayudante de catedra - Pregrado Sociología",
+  "2019-2021",
+  "Facultad de Ciencias Sociales, Universidad de Chile",
+  "Santiago, Chile",
+  list(
+    "Investigación Evaluativa (Primer semestre 2021)", 
+    "Sociología de las Políticas Públicas (Segundo semestre 2020)", 
+    "Estadística Multivariada (Primer semestre 2020)", 
+    "Estrategias de Investigación Cuantitativa (Segundo semestre 2019)"
+  ),
+  
+  "Tutor de Apoyo al Aprendizaje (LEA) - Pregrado Sociología", "2019-2021", "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Acompañamiento en escritura académica, estrategias de estudio y contenidos de cátedra"
+  
+) %>%
+  detailed_entries(Role, Year, Institution, Where, Details)
+```
+
+
+# Aptitudes profesionales
+
+- **Organización y gestión del tiempo:** experiencia en planificación de tareas y cumplimiento de plazos en contextos académicos y de investigación.
+- **Comunicación efectiva:** habilidades desarrolladas en docencia y presentaciones orales, con énfasis en enfoques participativos y aprendizaje horizontal.
+- **Investigación aplicada:** experiencia en diseño metodológico, análisis de datos cuantitativos, elaboración de informes y divulgación de resultados.
+- **Procesamiento y análisis de datos:** capacidad para trabajar con bases de datos complejas, limpieza de datos y producción de indicadores.
+- **Diseño de instrumentos:** habilidades en la construcción de encuestas y formularios de recolección de datos, tanto en papel como en plataformas digitales.
+
+# Competencias técnicas
+- **R (avanzado):** análisis estadístico, visualización de datos, diseño de encuestas, automatización de reportes (Quarto/RMarkdown).
+- **Git (avanzado):** control de versiones, trabajo colaborativo y gestión de proyectos reproducibles.
+- **Markdown (avanzado):** elaboración de documentos reproducibles e integrados con código.
+- **Mendeley y Zotero (avanzado):** organización y gestión de bibliografía para investigación académica.
+- **Survey Solutions (básico):** diseño y gestión de encuestas digitales.
+- **Python (básico):** familiaridad con estructuras de datos y automatización básica.
+- **Atlas.ti (básico):** uso inicial en codificación y análisis cualitativo.
+- **Microsoft Office** (intermedio): manejo funcional de Excel, Word y PowerPoint.
+- **Inglés:** comprensión lectora y auditiva fluida; nivel intermedio en expresión oral.
+
+# Colaboración y autorías
+```{r}
+bibliography_entries("../CV.bib")
+```
