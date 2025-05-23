@@ -132,11 +132,10 @@ tribble(
   detailed_entries(Role, Year, Institution, Where, Details)
 ```
 
-
 # Aptitudes profesionales
 
 - **Organización y gestión del tiempo:** experiencia en planificación de tareas y cumplimiento de plazos en contextos académicos y de investigación.
-- **Comunicación efectiva:** habilidades desarrolladas en docencia y presentaciones orales, con énfasis en enfoques participativos y aprendizaje horizontal.
+- **Comunicación efectiva:** habilidades en docencia y presentaciones orales.
 - **Investigación aplicada:** experiencia en diseño metodológico, análisis de datos cuantitativos, elaboración de informes y divulgación de resultados.
 - **Procesamiento y análisis de datos:** capacidad para trabajar con bases de datos complejas, limpieza de datos y producción de indicadores.
 - **Diseño de instrumentos:** habilidades en la construcción de encuestas y formularios de recolección de datos, tanto en papel como en plataformas digitales.
@@ -149,7 +148,7 @@ tribble(
 - **Survey Solutions (básico):** diseño y gestión de encuestas digitales.
 - **Python (básico):** familiaridad con estructuras de datos y automatización básica.
 - **Atlas.ti (básico):** uso inicial en codificación y análisis cualitativo.
-- **Microsoft Office** (intermedio): manejo funcional de Excel, Word y PowerPoint.
+- **Microsoft Office (intermedio)**: manejo funcional de Excel, Word y PowerPoint.
 - **Inglés:** comprensión lectora y auditiva fluida; nivel intermedio en expresión oral.
 
 # Colaboración y autorías
