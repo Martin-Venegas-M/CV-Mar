@@ -22,25 +22,8 @@ knitr::opts_chunk$set(echo = FALSE)
 # Resumen
 
 \begin{cvparagraph}
-Sociólogo con foco en estadística aplicada, diseño de encuestas, procesamiento y análisis de datos. A lo largo de mi trayectoria universitaria, laboral y de formación autodidacta, he desarrollado competencias en el uso de R, Quarto, Git y métodos cuantitativos robustos para abordar problemas complejos. Me interesa especialmente el uso de datos para comprender y transformar realidades sociales, con un fuerte compromiso con la accesibilidad del conocimiento y la investigación reproducible. Busco participar en proyectos que combinen rigurosidad técnica con impacto social positivo.
+Sociólogo de la Universidad de Chile y Diplomado en Estadística de parte de la Pontificia Universidad Católica de Chile con foco en estadística aplicada, diseño de encuestas, procesamiento y análisis de datos. A lo largo de mi trayectoria he desarrollado competencias en el uso de R, Quarto, Git y métodos cuantitativos robustos para abordar problemas complejos. Me interesa especialmente el uso de datos para comprender y transformar realidades sociales, con un fuerte compromiso con la accesibilidad del conocimiento y la investigación reproducible. Busco participar en proyectos que combinen rigurosidad técnica con impacto social positivo.
 \end{cvparagraph}
-
-# Estudios
-
-```{r}
-library(tibble)
-tribble(
-  ~ Degree, ~ Year, ~ Institution, ~ Where,
-  
-  "Diplomado en Estadística, mención Métodos Estadísticos", "2023-2024", "Pontificia Universidad Católica de Chile", "Santiago, Chile",
-  
-  "Sociólogo. Segundo lugar en posición de egreso.", "2017-2022", "Universidad de Chile", "Santiago, Chile",
-  
-  "Licenciatura en Sociología", "2017-2020", "Universidad de Chile", "Santiago, Chile"
-) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
-```
-
 
 # Experiencia laboral
 
@@ -51,13 +34,42 @@ library(tibble)
 tribble(
   ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
   
-"Analista Socioeconómico", "2023-presente", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Construcción de instrumentos, diseño y ejecución del procesamiento de datos para la II Encuesta Nacional Sobre Uso del Tiempo (ENUT) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador Técnico del proyecto Mg. Agustín Arce.", 
+"Analista Socioeconómico - Sección Estadísticas sobre Uso del Tiempo", 
+"2023-presente", 
+"Instituto Nacional de Estadísticas", 
+"Santiago, Chile", 
+c(
+  "Diseño, coordinación e implementación del procesamiento y análisis de datos para los productos estadísticos a cargo del equipo (e.g. II Encuesta Nacional Sobre Uso del Tiempo): 
+  \\begin{itemize}
+    \\item Implementación y programación de un flujo de validaciones de datos vía \\textit{tidyverse}, \\textit{purrr} y \\textit{rlang}
+    \\item Desarrollo de un paquete de R interno para la optimización del desarrollo del producto estadístico vía \\textit{devtools} y \\textit{testhat}
+    \\item Coordinación del versionamiento de los productos estadísticos del equipo via Git: manejo de credenciales, pull request e issues
+  \\end{itemize}",
   
-"Analista Socioeconómico", "2022", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Diseño de instrumentos, procesamiento y análisis de datos para la VII Encuesta de Microemprendimiento (EME) del Subdepartamento de Estadísticas Estructurales del Trabajo. Coordinador Técnico del proyecto Mg. Sebastián Palacios.",  
+  "Diseño y construcción de instrumentos de recolección para la generación de estadísticas oficiales sobre el trabajo no remunerado y otros conceptos asociados"
+  ), 
   
-"Practicante", "2022", "Instituto Nacional de Estadísticas", "Santiago, Chile", "Apoyo en levantamiento y análisis de datos al Equipo Técnico de la Encuesta de Microemprendimiento (EME) en la piloto de su VII versión. Coordinador Técnico del proyecto Mg. Sebastián Palacios."
+"Analista Socioeconómico - Encuesta de Microemprendimiento (EME)", 
+"2022", 
+"Instituto Nacional de Estadísticas", 
+"Santiago, Chile", 
+c(
+  "Automatización de la documentación oficial de la VII EME con \\textit{RMarkdown}",
+  "Generación de estimaciones oficiales a partir del análisis de los microdatos de la encuesta vía paquetes de R \\textit{survey} y \\textit{srvyr}"
+  ),  
+  
+"Practicante - Encuesta de Microemprendimiento (EME)",
+"2022",
+"Instituto Nacional de Estadísticas",
+"Santiago, Chile",
+"Análisis estadístico e implementación de metodologías cualitativas para la mejora del instrumento de recolección en el marco de la Piloto VII EME:
+  \\begin{itemize}
+    \\item Análisis de no respuesta a la unidad a partir de modelos de regresión logísticos
+    \\item Análisis de la duración del cuestionario a partir de modelos de regresión lineal
+    \\item Grupos focales con el equipo operativo del proyecto
+  \\end{itemize}"
 ) %>% 
-  detailed_entries(Role, Year, Institution, Where, Details)
+  detailed_entries(Role, Year, Institution, Where, Details, .protect = FALSE)
 ```
 
 ## Académica
@@ -79,6 +91,8 @@ tribble(
 ) %>% 
   detailed_entries(Role, Year, Institution, Where, Details)
 ```
+
+\newpage
 
 # Experiencia docente
 
@@ -131,25 +145,43 @@ tribble(
 ) %>%
   detailed_entries(Role, Year, Institution, Where, Details)
 ```
+ 
+# Estudios 
+```{r}
 
-# Aptitudes profesionales
+library(tibble)
 
-- **Organización y gestión del tiempo:** experiencia en planificación de tareas y cumplimiento de plazos en contextos académicos y de investigación.
-- **Comunicación efectiva:** habilidades en docencia y presentaciones orales.
-- **Investigación aplicada:** experiencia en diseño metodológico, análisis de datos cuantitativos, elaboración de informes y divulgación de resultados.
-- **Procesamiento y análisis de datos:** capacidad para trabajar con bases de datos complejas, limpieza de datos y producción de indicadores.
-- **Diseño de instrumentos:** habilidades en la construcción de encuestas y formularios de recolección de datos, tanto en papel como en plataformas digitales.
+ 
+tribble(
+~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Diplomado en Estadística, mención Métodos Estadísticos", "2023-2024", "Pontificia Universidad Católica de Chile", "Santiago, Chile",
+  "Sociólogo. Segundo lugar en posición de egreso.", "2017-2022", "Universidad de Chile", "Santiago, Chile",
+  "Licenciatura en Sociología", "2017-2020", "Universidad de Chile", "Santiago, Chile"
+) %>% 
 
-# Competencias técnicas
-- **R (avanzado):** análisis estadístico, visualización de datos, diseño de encuestas, automatización de reportes (Quarto/RMarkdown).
-- **Git (avanzado):** control de versiones, trabajo colaborativo y gestión de proyectos reproducibles.
-- **Markdown (avanzado):** elaboración de documentos reproducibles e integrados con código.
-- **Mendeley y Zotero (avanzado):** organización y gestión de bibliografía para investigación académica.
-- **Survey Solutions (básico):** diseño y gestión de encuestas digitales.
-- **Python (básico):** familiaridad con estructuras de datos y automatización básica.
-- **Atlas.ti (básico):** uso inicial en codificación y análisis cualitativo.
-- **Microsoft Office (intermedio)**: manejo funcional de Excel, Word y PowerPoint.
-- **Inglés:** comprensión lectora y auditiva fluida; nivel intermedio en expresión oral.
+ 
+  detailed_entries(Degree, Year, Institution, Where)
+
+```
+
+# Competencias
+
+\begin{cvparagraph}
+
+\begin{itemize}
+  \item \textbf{R (avanzado):} procesamiento de datos de encuesta, análisis estadístico y desarrollo de paquetes.
+  \item \textbf{Git/Github/Gitlab (avanzado):} control de versiones, trabajo colaborativo y gestión de proyectos reproducibles.
+  \item \textbf{Quarto (avanzado):} elaboración de documentos reproducibles e integrados con código.
+  \item \textbf{Mendeley y Zotero (avanzado):} organización y gestión de bibliografía para investigación académica.
+  \item \textbf{Survey Solutions (intermedio):} diseño y gestión de encuestas digitales.
+  \item \textbf{Python (básico):} familiaridad con estructuras de datos y automatización básica.
+  \item \textbf{Microsoft Office (intermedio):} manejo funcional de Excel, Word y PowerPoint.
+  \item \textbf{Inglés (B2):} comprensión lectora y auditiva fluida; nivel intermedio en expresión oral.
+\end{itemize}
+
+\end{cvparagraph}
+
+\newpage
 
 # Colaboración y autorías
 ```{r}
