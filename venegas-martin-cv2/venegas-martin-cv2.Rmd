@@ -115,52 +115,53 @@ tribble(
 
 ```{r}
 library(tibble)
+
 tribble(
-  ~ Role,
-  ~ Year,
-  ~ Institution,
-  ~ Where,
-  ~ Details,
+  ~Role, ~Year, ~Institution, ~Where, ~Details,
   
-  "Ayudante de Cátedra -  Seminario Metodológico Disciplinario: Metodologías Cuantitativas - Doctorado en Psicología",
+  "Ayudante de Cátedra – Seminario Metodológico Disciplinario: Metodologías Cuantitativas (Doctorado en Psicología)",
   "Otoño 2025",
   "Facultad de Psicología, Universidad Diego Portales",
   "Santiago, Chile",
-  "Tutoría en programación en R para análisis cuantitativo aplicado.",
+  "Tutoría y apoyo docente en programación en R para análisis cuantitativo aplicado.",
   
-  "Docente de Apoyo - Estadística Correlacional - Pregrado Sociología",
+  "Docente de Apoyo – Estadística Correlacional (Pregrado Sociología)",
   "Segundo semestre 2024",
   "Facultad de Ciencias Sociales, Universidad de Chile",
   "Santiago, Chile",
-  "Desarrollo de clases prácticas sobre pruebas de hipótesis, coeficientes de correlación, entre otros; uso de R en análisis bivariado.",
+  "Desarrollo de clases prácticas sobre análisis bivariado, pruebas de hipótesis y coeficientes de correlación, utilizando R.",
   
-  "Ayudante de Cátedra - Técnicas Estadísticas Avanzadas - Magister en Métodos para la Investigación Social",
-  "2023-2024",
+  "Ayudante de Cátedra – Técnicas Estadísticas Avanzadas (Magíster en Métodos para la Investigación Social)",
+  "2023–2024",
   "Facultad de Ciencias Sociales, Universidad Diego Portales",
   "Santiago, Chile",
-  "Apoyo en clases y asesorías en modelos de ecuaciones estructurales (uso de R y lavaan)",
+  "Apoyo en clases y asesorías en modelos de ecuaciones estructurales para investigación social.",
   
-  "Ayudante de Cátedra - Diseño de Técnicas Cuantitativas - Pregrado Sociología",
+  "Ayudante de Cátedra – Diseño de Técnicas Cuantitativas (Pregrado Sociología)",
   "Segundo semestre 2022",
   "Facultad de Ciencias Sociales, Universidad Diego Portales",
   "Santiago, Chile",
-  "Apoyo en formulación de instrumentos, diseño de encuestas y análisis de datos con R",
+  "Apoyo docente en formulación de instrumentos, diseño de encuestas y análisis de datos.",
   
-  "Ayudante de catedra - Pregrado Sociología",
-  "2019-2021",
+  "Ayudante de Cátedra – Pregrado Sociología",
+  "2019–2021",
   "Facultad de Ciencias Sociales, Universidad de Chile",
   "Santiago, Chile",
   list(
-    "Investigación Evaluativa (Primer semestre 2021)", 
-    "Sociología de las Políticas Públicas (Segundo semestre 2020)", 
-    "Estadística Multivariada (Primer semestre 2020)", 
-    "Estrategias de Investigación Cuantitativa (Segundo semestre 2019)"
+    "Investigación Evaluativa (2021)",
+    "Sociología de las Políticas Públicas (2020)",
+    "Estadística Multivariada (2020)",
+    "Estrategias de Investigación Cuantitativa (2019)"
   ),
   
-  "Tutor de Apoyo al Aprendizaje (LEA) - Pregrado Sociología", "2019-2021", "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile", "Santiago, Chile", "Acompañamiento en escritura académica, estrategias de estudio y contenidos de cátedra"
-  
+  "Tutor de Apoyo al Aprendizaje (LEA) – Pregrado Sociología",
+  "2019–2021",
+  "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile",
+  "Santiago, Chile",
+  "Acompañamiento en escritura académica, estrategias de estudio y apoyo en contenidos metodológicos."
 ) %>%
   detailed_entries(Role, Year, Institution, Where, Details)
+
 ```
  
 # Estudios 
@@ -168,16 +169,26 @@ tribble(
 
 library(tibble)
 
- 
 tribble(
-~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Diplomado en Estadística, mención Métodos Estadísticos", "2023-2024", "Pontificia Universidad Católica de Chile", "Santiago, Chile",
-  "Sociólogo. Segundo lugar en posición de egreso.", "2017-2022", "Universidad de Chile", "Santiago, Chile",
-  "Licenciatura en Sociología", "2017-2020", "Universidad de Chile", "Santiago, Chile"
+  ~Degree, ~Year, ~Institution, ~Where,
+  
+  "Diplomado en Estadística, mención Métodos Estadísticos",
+  "2023–2024",
+  "Pontificia Universidad Católica de Chile",
+  "Santiago, Chile",
+  
+  "Título profesional de Sociólogo (segundo lugar en posición de egreso)",
+  "2017–2022",
+  "Universidad de Chile",
+  "Santiago, Chile",
+  
+  "Licenciatura en Sociología",
+  "2017–2020",
+  "Universidad de Chile",
+  "Santiago, Chile"
 ) %>% 
-
- 
   detailed_entries(Degree, Year, Institution, Where)
+
 
 ```
 
@@ -208,5 +219,5 @@ tribble(
 
 # Colaboración y autorías
 ```{r}
-bibliography_entries("../CV.bib")
+bibliography_entries("../CV_papers.bib")
 ```
