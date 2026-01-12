@@ -73,23 +73,43 @@ tribble(
 
 ```{r}
 library(tibble)
-tribble(
-  ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
-  
-"Asitente de investigación", "2021-2022", "Centro de Estudios de Conflicto y Cohesión Social (COES)", "Santiago, Chile", "Asistencia de investigación para investigador post-doctoral Phd. Juan Diego García Castro. Principales actividades: revisión de literatura, manejo de bases de datos y escritura de artículos científicos." ,
-  
-"Pasante de investigación", "2021", "Laboratorio de Ciencia Social Abierta (LISA) - Centro de Estudios de Conflicto y Cohesión Social (COES)", "Santiago, Chile", "Apoyo en sistematización de información y escritura para documento de trabajo sobre transparencia y reproducibilidad en las ciencias sociales. Investigador principal Phd. Juan Carlos Castillo.",  
-  
-"Ayudante de investigación", "2020-2022", "Fondecyt Regular 1181239", "Santiago, Chile", "Apoyo técnico en elaboración de artículos: procesamiento y análisis de datos, revisión de literatura y escritura académica. Investigador principal Phd. Cristian Cox.",  
-  
-"Pasante de investigación", "2020", "Fundación Todo Mejora", "Santiago, Chile", "Desarrollo y análisis de datos para Informe Bianual Programa Hora Segura 2019-2020 y otras actividades. Coordinadora Fernanda Barriga.",
 
-"Socio-Investigador", "2019-2020", "Nucleo de Sociología Contingente (NUDESOC)", "Santiago, Chile", "Desarrollo de investigaciones en temáticas contingentes, especialmente acción colectiva, movimientos sociales y política. Presidenta del núcleo Camila Diaz."
+tribble(
+  ~Role, ~Year, ~Institution, ~Where, ~Details,
+  
+  "Asistente de investigación", 
+  "2021-2022", 
+  "Centro de Estudios de Conflicto y Cohesión Social (COES)", 
+  "Santiago, Chile", 
+  "Apoyo a investigación postdoctoral en ciencias sociales, incluyendo revisión sistemática de literatura, procesamiento y análisis de bases de datos, y colaboración en la escritura de artículos científicos.",
+  
+  "Pasante de investigación", 
+  "2021", 
+  "Laboratorio de Ciencia Social Abierta (LISA) – COES", 
+  "Santiago, Chile", 
+  "Participación en la sistematización de información y apoyo en la escritura de un documento de trabajo sobre transparencia y reproducibilidad en las ciencias sociales.",
+  
+  "Ayudante de investigación", 
+  "2020-2022", 
+  "Proyecto Fondecyt Regular N°1181239", 
+  "Santiago, Chile", 
+  "Apoyo técnico a investigación financiada por Fondecyt, incluyendo procesamiento y análisis de datos, revisión de literatura y colaboración en escritura académica.",
+  
+  "Pasante de investigación", 
+  "2020", 
+  "Fundación Todo Mejora", 
+  "Santiago, Chile", 
+  "Desarrollo y análisis de datos para el Informe Bianual del Programa Hora Segura 2019–2020, y apoyo en actividades de investigación aplicada.",
+  
+  "Socio-investigador", 
+  "2019-2020", 
+  "Núcleo de Sociología Contingente (NUDESOC)", 
+  "Santiago, Chile", 
+  "Participación en investigaciones colectivas sobre acción colectiva, movimientos sociales y política, incluyendo diseño, análisis y discusión de resultados."
 ) %>% 
   detailed_entries(Role, Year, Institution, Where, Details)
-```
 
-\newpage
+```
 
 # Experiencia docente
 
