@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # Resumen
 
 \begin{cvparagraph}
-Sociólogo de la Universidad de Chile y Diplomado en Estadística de parte de la Pontificia Universidad Católica de Chile con foco en estadística aplicada, diseño de encuestas, procesamiento y análisis de datos. A lo largo de mi trayectoria he desarrollado competencias en el uso de R, Quarto, Git y métodos cuantitativos robustos para abordar problemas complejos. Me interesa especialmente el uso de datos para comprender y transformar realidades sociales, con un fuerte compromiso con la accesibilidad del conocimiento y la investigación reproducible. Busco participar en proyectos que combinen rigurosidad técnica con impacto social positivo.
+Sociólogo de la Universidad de Chile y Diplomado en Estadística por la Pontificia Universidad Católica de Chile, con experiencia en estadística aplicada, diseño de encuestas y procesamiento y análisis de datos. He trabajado en producción de estadísticas oficiales e investigación aplicada, desarrollando soluciones analíticas reproducibles en R, Quarto y entornos de trabajo colaborativos con control de versiones. Me interesa especialmente el uso de datos para comprender fenómenos sociales y apoyar la toma de decisiones públicas, con un compromiso sostenido con la rigurosidad metodológica y la accesibilidad del conocimiento.
 \end{cvparagraph}
 
 # Experiencia laboral
@@ -42,7 +42,7 @@ tribble(
   c(
     "Diseño, coordinación e implementación del procesamiento y análisis de datos para la producción de estadísticas oficiales, incluyendo la estandarización y automatización de flujos de trabajo en R.",
     
-    "Desarrollo e implementación de herramientas analíticas para la validación y aseguramiento de la calidad de datos, mediante flujos programáticos en \\textit{tidyverse}, \\textit{purrr} y \\textit{rlang}, y la creación de un paquete interno de R para optimizar el desarrollo del producto estadístico.",
+    "Desarrollo e implementación de herramientas analíticas para la validación y aseguramiento de la calidad de datos, y la creación de un paquete interno de R para optimizar el desarrollo del producto estadístico.",
     
     "Coordinación del versionamiento y trabajo colaborativo del equipo mediante Git, incluyendo gestión de repositorios, credenciales, \\textit{pull requests} e \\textit{issues}.",
     
@@ -55,7 +55,7 @@ tribble(
   "Santiago, Chile", 
   c(
     "Automatización de la documentación oficial de la VII EME mediante \\textit{RMarkdown}.",
-    "Generación de estimaciones oficiales a partir del análisis de microdatos de la encuesta utilizando los paquetes de R \\textit{survey} y \\textit{srvyr}."
+    "Análisis de microdatos de la encuesta para la generación de estimaciones oficiales, incluyendo revisión de consistencia y documentación metodológica"
   ),  
   
   "Practicante - Encuesta de Microemprendimiento (EME)",
@@ -186,19 +186,25 @@ tribble(
 \begin{cvparagraph}
 
 \begin{itemize}
-  \item \textbf{R (avanzado):} procesamiento de datos de encuesta, análisis estadístico y desarrollo de paquetes.
-  \item \textbf{Git/Github/Gitlab (avanzado):} control de versiones, trabajo colaborativo y gestión de proyectos reproducibles.
-  \item \textbf{Quarto (avanzado):} elaboración de documentos reproducibles e integrados con código.
-  \item \textbf{Mendeley y Zotero (avanzado):} organización y gestión de bibliografía para investigación académica.
-  \item \textbf{Survey Solutions (intermedio):} diseño y gestión de encuestas digitales.
-  \item \textbf{Python (básico):} familiaridad con estructuras de datos y automatización básica.
-  \item \textbf{Microsoft Office (intermedio):} manejo funcional de Excel, Word y PowerPoint.
+  \item \textbf{R (avanzado):} procesamiento y análisis de datos de encuesta, estimación de indicadores oficiales y desarrollo de herramientas reproducibles. Experiencia con el ecosistema \textit{tidyverse}, \textit{survey/srvyr} y desarrollo de paquetes en R.
+  
+  \item \textbf{Git / GitHub / GitLab (avanzado):} control de versiones, trabajo colaborativo y gestión de proyectos analíticos reproducibles.
+  
+  \item \textbf{Quarto (avanzado):} elaboración de informes técnicos y documentos académicos reproducibles integrando análisis y texto.
+  
+  \item \textbf{Gestión bibliográfica (avanzado):} uso de \textit{Mendeley} y \textit{Zotero} para investigación académica y producción científica.
+  
+  \item \textbf{Survey Solutions (intermedio):} diseño, implementación y gestión de encuestas digitales.
+  
+  \item \textbf{Python (básico):} uso complementario para automatización simple y manipulación de datos.
+  
+  \item \textbf{Microsoft Office (intermedio):} manejo funcional de Excel, Word y PowerPoint para apoyo a tareas analíticas y de reporte.
+  
   \item \textbf{Inglés (B2):} comprensión lectora y auditiva fluida; nivel intermedio en expresión oral.
 \end{itemize}
 
 \end{cvparagraph}
 
-\newpage
 
 # Colaboración y autorías
 ```{r}
