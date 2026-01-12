@@ -31,43 +31,40 @@ Sociólogo de la Universidad de Chile y Diplomado en Estadística de parte de la
 
 ```{r}
 library(tibble)
+
 tribble(
-  ~ Role, ~ Year, ~ Institution, ~ Where, ~ Details,
+  ~Role, ~Year, ~Institution, ~Where, ~Details,
   
-"Analista Socioeconómico - Sección Estadísticas sobre Uso del Tiempo", 
-"2023-presente", 
-"Instituto Nacional de Estadísticas", 
-"Santiago, Chile", 
-c(
-  "Diseño, coordinación e implementación del procesamiento y análisis de datos para los productos estadísticos a cargo del equipo (e.g. II Encuesta Nacional Sobre Uso del Tiempo): 
-  \\begin{itemize}
-    \\item Implementación y programación de un flujo de validaciones de datos vía \\textit{tidyverse}, \\textit{purrr} y \\textit{rlang}
-    \\item Desarrollo de un paquete de R interno para la optimización del desarrollo del producto estadístico vía \\textit{devtools} y \\textit{testhat}
-    \\item Coordinación del versionamiento de los productos estadísticos del equipo via Git: manejo de credenciales, pull request e issues
-  \\end{itemize}",
-  
-  "Diseño y construcción de instrumentos de recolección para la generación de estadísticas oficiales sobre el trabajo no remunerado y otros conceptos asociados"
+  "Analista Socioeconómico - Encuesta Nacional Sobre Uso del Tiempo (ENUT)", 
+  "2023-presente", 
+  "Instituto Nacional de Estadísticas", 
+  "Santiago, Chile", 
+  c(
+    "Diseño, coordinación e implementación del procesamiento y análisis de datos para la producción de estadísticas oficiales, incluyendo la estandarización y automatización de flujos de trabajo en R.",
+    
+    "Desarrollo e implementación de herramientas analíticas para la validación y aseguramiento de la calidad de datos, mediante flujos programáticos en \\textit{tidyverse}, \\textit{purrr} y \\textit{rlang}, y la creación de un paquete interno de R para optimizar el desarrollo del producto estadístico.",
+    
+    "Coordinación del versionamiento y trabajo colaborativo del equipo mediante Git, incluyendo gestión de repositorios, credenciales, \\textit{pull requests} e \\textit{issues}.",
+    
+    "Diseño y construcción de instrumentos de recolección para la generación de estadísticas oficiales sobre trabajo no remunerado y otros conceptos asociados."
   ), 
   
-"Analista Socioeconómico - Encuesta de Microemprendimiento (EME)", 
-"2022", 
-"Instituto Nacional de Estadísticas", 
-"Santiago, Chile", 
-c(
-  "Automatización de la documentación oficial de la VII EME con \\textit{RMarkdown}",
-  "Generación de estimaciones oficiales a partir del análisis de los microdatos de la encuesta vía paquetes de R \\textit{survey} y \\textit{srvyr}"
+  "Analista Socioeconómico - Encuesta de Microemprendimiento (EME)", 
+  "2022", 
+  "Instituto Nacional de Estadísticas", 
+  "Santiago, Chile", 
+  c(
+    "Automatización de la documentación oficial de la VII EME mediante \\textit{RMarkdown}.",
+    "Generación de estimaciones oficiales a partir del análisis de microdatos de la encuesta utilizando los paquetes de R \\textit{survey} y \\textit{srvyr}."
   ),  
   
-"Practicante - Encuesta de Microemprendimiento (EME)",
-"2022",
-"Instituto Nacional de Estadísticas",
-"Santiago, Chile",
-"Análisis estadístico e implementación de metodologías cualitativas para la mejora del instrumento de recolección en el marco de la Piloto VII EME:
-  \\begin{itemize}
-    \\item Análisis de no respuesta a la unidad a partir de modelos de regresión logísticos
-    \\item Análisis de la duración del cuestionario a partir de modelos de regresión lineal
-    \\item Grupos focales con el equipo operativo del proyecto
-  \\end{itemize}"
+  "Practicante - Encuesta de Microemprendimiento (EME)",
+  "2022",
+  "Instituto Nacional de Estadísticas",
+  "Santiago, Chile",
+  c(
+    "Análisis estadístico y aplicación de metodologías cuantitativas y cualitativas para la mejora del instrumento de recolección en el marco de la Piloto VII EME, incluyendo análisis de no respuesta, evaluación de la duración del cuestionario y participación en grupos focales con el equipo operativo."
+  )
 ) %>% 
   detailed_entries(Role, Year, Institution, Where, Details, .protect = FALSE)
 ```
