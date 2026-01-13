@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # Resumen
 
 \begin{cvparagraph}
-Sociólogo de la Universidad de Chile y Diplomado en Estadística por la Pontificia Universidad Católica de Chile, con experiencia en estadística aplicada, diseño de encuestas y procesamiento y análisis de datos. He trabajado en producción de estadísticas oficiales e investigación aplicada, desarrollando soluciones analíticas reproducibles en R, Quarto y entornos de trabajo colaborativos con control de versiones. Me interesa especialmente el uso de datos para comprender fenómenos sociales y apoyar la toma de decisiones públicas, con un compromiso sostenido con la rigurosidad metodológica y la accesibilidad del conocimiento.
+Sociólogo de la Universidad de Chile y Diplomado en Estadística por la Pontificia Universidad Católica de Chile, con experiencia en estadística aplicada, diseño de encuestas y procesamiento y análisis de datos. He trabajado en producción de estadísticas oficiales e investigación aplicada, desarrollando soluciones analíticas reproducibles en \texttt{R}, Quarto y entornos de trabajo colaborativos con control de versiones. Me interesa especialmente el uso de datos para comprender fenómenos sociales y apoyar la toma de decisiones públicas, con un compromiso sostenido con la rigurosidad metodológica y la accesibilidad del conocimiento.
 \end{cvparagraph}
 
 # Experiencia laboral
@@ -40,13 +40,13 @@ tribble(
   "Instituto Nacional de Estadísticas", 
   "Santiago, Chile", 
   c(
-    "Diseño, coordinación e implementación del procesamiento y análisis de datos para la producción de estadísticas oficiales, incluyendo la estandarización y automatización de flujos de trabajo en R.",
+    "Diseño y coordinación del procesamiento de datos de la II ENUT y otros productos asociados, en el marco del Modelo Genérico del Proceso Estadístico (GSBPM), incluyendo integración, edición, validación y construcción de bases finales para difusión.",
     
-    "Desarrollo e implementación de herramientas analíticas para la validación y aseguramiento de la calidad de datos, y la creación de un paquete interno de R para optimizar el desarrollo del producto estadístico.",
+    "Implementación del procesamiento estadístico mediante programación en \\texttt{R}, a través del desarrollo de funciones, flujos reproducibles y un paquete interno orientado a estandarizar, documentar y optimizar la producción del producto estadístico.",
     
     "Coordinación del versionamiento y trabajo colaborativo del equipo mediante Git, incluyendo gestión de repositorios, credenciales, \\textit{pull requests} e \\textit{issues}.",
     
-    "Diseño y construcción de instrumentos de recolección para la generación de estadísticas oficiales sobre trabajo no remunerado y otros conceptos asociados."
+    "Diseño y construcción de instrumentos de recolección para la generación de estadísticas oficiales sobre el mercado del trabajo, incluyendo trabajo no remunerado, trabajo en la ocupación y otros conceptos asociados."
   ), 
   
   "Analista Socioeconómico - Encuesta de Microemprendimiento (EME)", 
@@ -54,8 +54,9 @@ tribble(
   "Instituto Nacional de Estadísticas", 
   "Santiago, Chile", 
   c(
-    "Automatización de la documentación oficial de la VII EME mediante \\textit{RMarkdown}.",
-    "Análisis de microdatos de la encuesta para la generación de estimaciones oficiales, incluyendo revisión de consistencia y documentación metodológica"
+    "Diseño y ejecución del análisis estadístico de los microdatos de la VII EME para la generación de estimaciones oficiales, incluyendo revisión de consistencia, definición de indicadores y documentación metodológica.",
+    
+    "Automatización del análisis y de la documentación oficial de la VII EME mediante \\textit{RMarkdown}, integrando código, resultados y texto metodológico en un flujo reproducible."
   ),  
   
   "Practicante - Encuesta de Microemprendimiento (EME)",
@@ -105,7 +106,7 @@ tribble(
   "2019-2020", 
   "Núcleo de Sociología Contingente (NUDESOC)", 
   "Santiago, Chile", 
-  "Participación en investigaciones colectivas sobre acción colectiva, movimientos sociales y política, incluyendo diseño, análisis y discusión de resultados."
+  "Participación en investigaciones sobre acción colectiva, movimientos sociales y política, incluyendo diseño, análisis y discusión de resultados."
 ) %>% 
   detailed_entries(Role, Year, Institution, Where, Details)
 
@@ -123,19 +124,19 @@ tribble(
   "Otoño 2025",
   "Facultad de Psicología, Universidad Diego Portales",
   "Santiago, Chile",
-  "Tutoría y apoyo docente en programación en R para análisis cuantitativo aplicado.",
+  "Tutoría y apoyo docente en programación en \\texttt{R} para análisis cuantitativo aplicado.",
   
   "Docente de Apoyo – Estadística Correlacional (Pregrado Sociología)",
   "Segundo semestre 2024",
   "Facultad de Ciencias Sociales, Universidad de Chile",
   "Santiago, Chile",
-  "Desarrollo de clases prácticas sobre análisis bivariado, pruebas de hipótesis y coeficientes de correlación, utilizando R.",
+  "Desarrollo de clases prácticas sobre análisis bivariado, pruebas de hipótesis y coeficientes de correlación, utilizando \\texttt{R}.",
   
   "Ayudante de Cátedra – Técnicas Estadísticas Avanzadas (Magíster en Métodos para la Investigación Social)",
   "2023–2024",
   "Facultad de Ciencias Sociales, Universidad Diego Portales",
   "Santiago, Chile",
-  "Apoyo en clases y asesorías en modelos de ecuaciones estructurales para investigación social.",
+  "Apoyo en clases y asesorías en modelos de ecuaciones estructurales (SEM) para investigación social.",
   
   "Ayudante de Cátedra – Diseño de Técnicas Cuantitativas (Pregrado Sociología)",
   "Segundo semestre 2022",
@@ -158,9 +159,9 @@ tribble(
   "2019–2021",
   "Centro IDEA, Facultad de Ciencias Sociales, Universidad de Chile",
   "Santiago, Chile",
-  "Acompañamiento en escritura académica, estrategias de estudio y apoyo en contenidos metodológicos."
+  "Acompañamiento en escritura académica, estrategias de estudio y apoyo en contenidos de cátedra."
 ) %>%
-  detailed_entries(Role, Year, Institution, Where, Details)
+  detailed_entries(Role, Year, Institution, Where, Details, .protect = FALSE)
 
 ```
  
@@ -197,9 +198,9 @@ tribble(
 \begin{cvparagraph}
 
 \begin{itemize}
-  \item \textbf{R (avanzado):} procesamiento y análisis de datos de encuesta, estimación de indicadores oficiales y desarrollo de herramientas reproducibles. Experiencia con el ecosistema \textit{tidyverse}, \textit{survey/srvyr} y desarrollo de paquetes en R.
+  \item \textbf{\texttt{R} (avanzado):} Experiencia en procesamiento de datos con ecosistema \texttt{tidyverse}; programación funcional avanzada con \texttt{purrr} y \texttt{rlang}; análisis de datos de encuesta con diseño complejo con \texttt{survey}/\texttt{srvyr} y herramientas de modelamiento estadístico con \texttt{lme4}, \texttt{lavaan}, entre otros.
   
-  \item \textbf{Git / GitHub / GitLab (avanzado):} control de versiones, trabajo colaborativo y gestión de proyectos analíticos reproducibles.
+  \item \textbf{Git / GitHub / GitLab (avanzado):} control de versiones, trabajo colaborativo y gestión de proyectos reproducibles.
   
   \item \textbf{Quarto (avanzado):} elaboración de informes técnicos y documentos académicos reproducibles integrando análisis y texto.
   
@@ -207,7 +208,7 @@ tribble(
   
   \item \textbf{Survey Solutions (intermedio):} diseño, implementación y gestión de encuestas digitales.
   
-  \item \textbf{Python (básico):} uso complementario para automatización simple y manipulación de datos.
+  \item \textbf{Python (básico):} uso complementario para limpieza de datos.
   
   \item \textbf{Microsoft Office (intermedio):} manejo funcional de Excel, Word y PowerPoint para apoyo a tareas analíticas y de reporte.
   
