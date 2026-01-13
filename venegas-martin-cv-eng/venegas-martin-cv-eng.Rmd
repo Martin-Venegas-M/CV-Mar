@@ -103,9 +103,9 @@ tribble(
 
 "Research Intern",
 "2020",
-"Todo Mejora Fundation",
+"Todo Mejora Foundation",
 "Santiago, Chile",
-"Data development and analysis for the Biennial Report of the Hora Segura Program 2019–2020, and support in applied research activities.",
+"Data processing and analysis for the Biennial Report of the Hora Segura Program 2019–2020, and support in applied research activities.",
 
 "Research Associate",
 "2019–2020",
