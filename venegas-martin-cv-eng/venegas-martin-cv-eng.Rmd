@@ -1,0 +1,231 @@
+---
+name: Martín
+surname: Venegas M.
+date: "`r format(Sys.time(), '%B, %Y')`"
+position: "Sociologist"
+address: "Faculty of Social Sciences, University of Chile"
+email: "martin.venegas@ug.uchile.cl"
+github: Martin-Venegas-M
+linkedin: "martin-venegas-marquez"
+headcolor: "414141"
+output: 
+  vitae::awesomecv:
+    keep_tex: true
+---
+
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(vitae)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Summary
+
+\begin{cvparagraph}
+Sociologist from the University of Chile and holder of a Graduate Diploma in Statistics from the Pontifical Catholic University of Chile, with experience in applied statistics, survey design, and data processing and analysis. I have worked in official statistical production and applied research, developing reproducible analytical solutions in \texttt{R}, Quarto, and collaborative environments with version control. I am particularly interested in the use of data to understand social phenomena and support public decision-making, with a sustained commitment to methodological rigor and knowledge accessibility.
+\end{cvparagraph}
+
+# Work Experience
+
+## Professional
+
+```{r}
+library(tibble)
+
+tribble(
+  ~Role, ~Year, ~Institution, ~Where, ~Details,
+  
+  "Socioeconomic Analyst – National Time Use Survey (ENUT)",
+  "2023–present",
+  "National Institute of Statistics (INE)",
+  "Santiago, Chile",
+  c(
+    "Design and coordination of data processing for the II National Time Use Survey and related statistical products, within the framework of the Generic Statistical Business Process Model (GSBPM), including data integration, editing, validation, and construction of final datasets for dissemination.",
+    
+    "Implementation of statistical processing through programming in \\texttt{R}, via the development of functions, reproducible workflows, and an internal package aimed at standardizing, documenting, and optimizing the production of statistical outputs.",
+    
+    "Coordination of version control and collaborative team workflows using Git, including repository management, credentials, \\textit{pull requests}, and \\textit{issues}.",
+    
+    "Design and construction of data collection instruments for the production of official statistics on the labor market, including unpaid work, employment-related activities, and other associated concepts."
+    
+    
+  ),
+  
+  "Socioeconomic Analyst – Micro-Entrepreneurship Survey (EME)",
+  "2022",
+  "National Institute of Statistics (INE)",
+  "Santiago, Chile",
+  c(
+    "Design and execution of statistical analysis of microdata from the VII Micro-Entrepreneurship Survey for the production of official estimates, including consistency checks, indicator definition, and methodological documentation.",
+    
+    "Automation of statistical analysis and official documentation of the VII EME using \\textit{RMarkdown}, integrating code, results, and methodological text within a reproducible workflow."
+    
+  ),
+  
+  "Intern – Micro-Entrepreneurship Survey (EME)",
+  "2022",
+  "National Institute of Statistics (INE)",
+  "Santiago, Chile",
+  c(
+    "Statistical analysis and application of quantitative and qualitative methodologies to improve the data collection instrument in the context of the VII EME Pilot, including non-response analysis, questionnaire duration assessment, and participation in focus groups with the operational team."
+  )
+) %>%
+  detailed_entries(Role, Year, Institution, Where, Details, .protect = FALSE)
+
+```
+
+## Academic
+
+```{r}
+library(tibble)
+
+tribble(
+~Role, ~Year, ~Institution, ~Where, ~Details,
+
+"Research Assistant",
+"2021–2022",
+"Center for Social Conflict and Cohesion Studies (COES)",
+"Santiago, Chile",
+"Support for postdoctoral research in the social sciences, including systematic literature review, data processing and analysis, and collaboration in the writing of scientific articles.",
+
+"Research Intern",
+"2021",
+"Open Social Science Lab (LISA) – COES",
+"Santiago, Chile",
+"Participation in information systematization and support in writing a working paper on transparency and reproducibility in the social sciences.",
+
+"Research Assistant",
+"2020–2022",
+"Fondecyt Regular Project No. 1181239",
+"Santiago, Chile",
+"Technical support for Fondecyt-funded research, including data processing and analysis, literature review, and collaboration in academic writing.",
+
+"Research Intern",
+"2020",
+"Todo Mejora Fundation",
+"Santiago, Chile",
+"Data development and analysis for the Biennial Report of the Hora Segura Program 2019–2020, and support in applied research activities.",
+
+"Research Associate",
+"2019–2020",
+"Contingent Sociology Research Group (NUDESOC)",
+"Santiago, Chile",
+"Participation in research on collective action, social movements, and politics, including study design, analysis, and discussion of results."
+) %>%
+detailed_entries(Role, Year, Institution, Where, Details)
+
+
+```
+
+# Teaching Experience
+
+```{r}
+library(tibble)
+
+tribble(
+~Role, ~Year, ~Institution, ~Where, ~Details,
+
+"Teaching Assistant – Disciplinary Methodological Seminar: Quantitative Methods (PhD in Psychology)",
+"Fall 2025",
+"Faculty of Psychology, Diego Portales University",
+"Santiago, Chile",
+"Tutoring and instructional support in \\texttt{R} programming for applied quantitative analysis.",
+
+"Adjunct Instructor – Correlational Statistics (Undergraduate Sociology)",
+"Second semester 2024",
+"Faculty of Social Sciences, University of Chile",
+"Santiago, Chile",
+"Delivery of practical sessions on bivariate analysis, hypothesis testing, and correlation coefficients using \\texttt{R}.",
+
+"Teaching Assistant – Advanced Statistical Techniques (Master’s in Methods for Social Research)",
+"2023–2024",
+"Faculty of Social Sciences, Diego Portales University",
+"Santiago, Chile",
+"Support in lectures and advising on structural equation models (SEM) for social research.",
+
+"Teaching Assistant – Quantitative Research Design (Undergraduate Sociology)",
+"Second semester 2022",
+"Faculty of Social Sciences, Diego Portales University",
+"Santiago, Chile",
+"Instructional support in survey design, instrument development, and data analysis.",
+
+"Teaching Assistant – Undergraduate Sociology",
+"2019–2021",
+"Faculty of Social Sciences, University of Chile",
+"Santiago, Chile",
+list(
+"Evaluation Research (2021)",
+"Sociology of Public Policy (2020)",
+"Multivariate Statistics (2020)",
+"Quantitative Research Strategies (2019)"
+),
+
+"Learning Support Tutor (LEA) – Undergraduate Sociology",
+"2019–2021",
+"IDEA Center, Faculty of Social Sciences, University of Chile",
+"Santiago, Chile",
+"Academic support in scholarly writing, study strategies, and course content."
+) %>%
+detailed_entries(Role, Year, Institution, Where, Details, .protect = FALSE)
+
+```
+ 
+# Education 
+```{r}
+
+library(tibble)
+
+tribble(
+~Degree, ~Year, ~Institution, ~Where,
+
+"Graduate Diploma in Statistics, concentration in Statistical Methods",
+"2023–2024",
+"Pontifical Catholic University of Chile",
+"Santiago, Chile",
+
+"Professional Degree in Sociology (second highest graduating rank)",
+"2017–2022",
+"University of Chile",
+"Santiago, Chile",
+
+"Bachelor’s Degree in Sociology",
+"2017–2020",
+"University of Chile",
+"Santiago, Chile"
+) %>%
+detailed_entries(Degree, Year, Institution, Where)
+
+
+```
+
+# Skills
+
+\begin{cvparagraph}
+
+\begin{itemize}
+  \item \textbf{\texttt{R} (advanced):} experience in data processing using \texttt{tidyverse} ecosystem; advanced functional programming with \texttt{purrr} and \texttt{rlang}; complex survey data analysis with \texttt{survey}/\texttt{srvyr}; and statistical modeling using \texttt{lme4}, \texttt{lavaan}, among others.
+  
+  \item \textbf{Git / GitHub / GitLab (advanced):} version control, collaborative workflows, and reproducible project management.
+  
+  \item \textbf{Quarto (advanced):} preparation of reproducible technical reports and academic documents integrating analysis and narrative.
+  
+  \item \textbf{Reference management (advanced):} use of \textit{Mendeley} and \textit{Zotero} for academic research and scientific production.
+  
+  \item \textbf{Survey Solutions (intermediate):} design, implementation, and management of digital surveys.
+  
+  \item \textbf{Python (basic):} complementary use for data cleaning.
+  
+  \item \textbf{Microsoft Office (intermediate):} functional use of Excel, Word, and PowerPoint to support analytical and reporting tasks.
+  
+  \item \textbf{English (B2):} fluent reading and listening comprehension; intermediate oral proficiency.
+\end{itemize}
+
+\end{cvparagraph}
+
+\newpage
+
+# Collaboration and Authorship
+```{r}
+bibliography_entries("../CV_papers.bib")
+```
