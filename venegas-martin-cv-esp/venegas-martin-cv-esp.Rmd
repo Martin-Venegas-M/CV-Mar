@@ -100,17 +100,13 @@ tribble(
   "2020", 
   "Fundación Todo Mejora", 
   "Santiago, Chile", 
-  "Desarrollo y análisis de datos para el Informe Bianual del Programa Hora Segura 2019–2020, y apoyo en actividades de investigación aplicada.",
-  
-  "Socio-investigador", 
-  "2019-2020", 
-  "Núcleo de Sociología Contingente (NUDESOC)", 
-  "Santiago, Chile", 
-  "Participación en investigaciones sobre acción colectiva, movimientos sociales y política, incluyendo diseño, análisis y discusión de resultados."
+  "Desarrollo y análisis de datos para el Informe Bianual del Programa Hora Segura 2019–2020, y apoyo en actividades de investigación aplicada."
 ) %>% 
   detailed_entries(Role, Year, Institution, Where, Details)
 
 ```
+
+\newpage
 
 # Experiencia docente
 
@@ -217,6 +213,7 @@ tribble(
 
 \end{cvparagraph}
 
+\newpage
 
 # Colaboración y autorías
 ```{r}

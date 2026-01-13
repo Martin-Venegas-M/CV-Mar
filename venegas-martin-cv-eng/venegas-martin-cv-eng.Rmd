@@ -105,18 +105,14 @@ tribble(
 "2020",
 "Todo Mejora Foundation",
 "Santiago, Chile",
-"Data processing and analysis for the Biennial Report of the Hora Segura Program 2019–2020, and support in applied research activities.",
-
-"Research Associate",
-"2019–2020",
-"Contingent Sociology Research Group (NUDESOC)",
-"Santiago, Chile",
-"Participation in research on collective action, social movements, and politics, including study design, analysis, and discussion of results."
+"Data processing and analysis for the Biennial Report of the Hora Segura Program 2019–2020, and support in applied research activities."
 ) %>%
 detailed_entries(Role, Year, Institution, Where, Details)
 
 
 ```
+
+\newpage
 
 # Teaching Experience
 
